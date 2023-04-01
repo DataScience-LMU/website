@@ -1,67 +1,26 @@
 ---
-title: "Allan Lab - Publications"
-layout: gridlay
-excerpt: "Allan Lab -- Publications."
+title: "Data Science @ LMU Munich - Publications"
+layout: single
+excerpt: "Data Science @ LMU Munich - Publications"
 sitemap: false
 permalink: /publications/
 ---
 
 
-# Publications
+Publications
+---------------
 
-## Group highlights
+We try to keep our publications up to date on [Google Scholar](https://scholar.google.de/citations?user=_DYguksAAAAJ).
 
-**At the end of this page, you can find the [full list of publications and patents](#full-list-of-publications). All papers are also available on [arXiv](https://arxiv.org/search/?searchtype=author&query=Allan%2C+M+P).**
+Software
+---------------
 
-{% assign number_printed = 0 %}
-{% for publi in site.data.publist %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-{% if publi.highlight == 1 %}
-
-{% if even_odd == 0 %}
-<div class="row">
-{% endif %}
-
-<div class="col-sm-6 clearfix">
- <div class="well">
-  <pubtit>{{ publi.title }}</pubtit>
-  <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}" class="img-responsive" width="33%" style="float: left" />
-  <p>{{ publi.description }}</p>
-  <p><em>{{ publi.authors }}</em></p>
-  <p><strong><a href="{{ publi.link.url }}">{{ publi.link.display }}</a></strong></p>
-  <p class="text-danger"><strong> {{ publi.news1 }}</strong></p>
-  <p> {{ publi.news2 }}</p>
- </div>
-</div>
-
-{% assign number_printed = number_printed | plus: 1 %}
-
-{% if even_odd == 1 %}
-</div>
-{% endif %}
-
-{% endif %}
-{% endfor %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-{% if even_odd == 1 %}
-</div>
-{% endif %}
-
-<p> &nbsp; </p>
-
-
-## Patents
-<em>Milan P Allan, S Gröblacher, RA Norte, M Leeuwenhoek</em><br />Novel atomic force microscopy probes with phononic crystals<br /> PCT/NL20-20/050797 (2020)
-
-<em>Milan P Allan</em><br /> Methods of manufacturing superconductor and phononic elements <br /> <a href="https://patents.google.com/patent/US10439125B2/en?inventor=Milan+ALLAN&oq=inventor:(Milan+ALLAN)">US10439125B2 (2016)</a>
-
-## Full List of publications
-
-{% for publi in site.data.publist %}
-
-  {{ publi.title }} <br />
-  <em>{{ publi.authors }} </em><br /><a href="{{ publi.link.url }}">{{ publi.link.display }}</a>
-
-{% endfor %}
++ `safareg` *Structured Additive Factorization Regression* on [Github](https://github.com/neural-structured-additive-learning/safareg)
++ `deepregression` *Semi-Strutured Deep Distributional Regression* on [CRAN](https://cran.r-project.org/web/packages/deepregression/index.html) and [Github](https://github.com/davidruegamer/deepregression/)
++ `mixdistreg` *Add-on package for deepregression to fit mixture families* on [Github](https://github.com/neural-structured-additive-learning/mixdistreg)
++ `selfmade`  *SELective inference For Mixed and ADditive model Estimators* on [CRAN](https://cran.r-project.org/web/packages/selfmade/index.html) and [Github](https://github.com/davidruegamer/selfmade/)
++ `FDboost`  *Boosting Functional Regression Models* on [CRAN](https://cran.r-project.org/web/packages/FDboost/index.html) and [Github](https://github.com/boost-R/FDboost)
++ `cAIC4`  *Conditional Akaike Information Criterion for 'lme4'* on [CRAN](https://cran.r-project.org/web/packages/cAIC4/index.html) and [Github](https://github.com/davidruegamer/cAIC4dev)
++ `iboost`  *Inference for Model-based Boosting* on [Github](https://github.com/davidruegamer/iboost)
++ `coinflibs`  *Conditional Inference after Likelihood-based Selection* on [Github](https://github.com/davidruegamer/coinflibs)
++ `effortless`  *efficient operations on row-wise tensor product linked evaluations with special structures* on [Github](https://github.com/davidruegamer/effortless)
