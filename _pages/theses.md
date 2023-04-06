@@ -1,9 +1,9 @@
 ---
-title: "Data Science @ LMU Munich - Teaching"
+title: "Data Science @ LMU Munich - Theses"
 layout: textlay
-excerpt: "Teaching"
+excerpt: "Theses"
 sitemap: false
-permalink: /teaching
+permalink: /theses
 ---
 
 # Some currently available projects
