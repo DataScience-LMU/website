@@ -1,0 +1,7 @@
+- name: Lucas Kook
+  photo: lucask.jpg
+  info: Postdoc in the <a href="https://cocala.github.io/">Copenhagen Causality Lab</a>
+  number_educ: 3
+  education1: PhD Student at the University of Zurich with <a href="https://www.ebpi.uzh.ch/en/aboutus/departments/biostatistics/teambiostats/sick.html">Beate Sick</a> and <a href="http://user.math.uzh.ch/hothorn/">Torsten Hothron</a>
+  education2: Works on causality and distributional regression models with deep learning
+  education3: <a href="https://lucaskook.github.io/">Personal Homepage</a>

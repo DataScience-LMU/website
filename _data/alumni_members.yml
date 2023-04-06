@@ -1,0 +1,15 @@
+- name: Daniel Schalk
+  photo: daniels.jpg
+  info: Former (co-supervised) PhD Student of <a href="https://www.slds.stat.uni-muenchen.de/people/bischl/">Bernd Bischl</a>
+  number_educ: 3
+  education1: PhD in 2023
+  education2: Worked on component-wise gradient boosting
+  education3: <a href="https://www.slds.stat.uni-muenchen.de/people/schalk/">Homepage</a>
+  
+- name: Florian Pfisterer
+  photo: florianp.jpg
+  info: Former (co-supervised) PhD Student of <a href="https://www.slds.stat.uni-muenchen.de/people/bischl/">Bernd Bischl</a>
+  number_educ: 3
+  education1: PhD in 2022
+  education2: Worked on hyperparameter tuning, AutoML, and algorithmic fairness
+  education3: <a href="https://www.slds.stat.uni-muenchen.de/people/pfisterer/">Homepage</a>
