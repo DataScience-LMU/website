@@ -24,8 +24,9 @@ We try to keep our publications up to date on [Google Scholar](https://scholar.g
 
 # Software
 
++ `deeptrafo` *Fitting Deep Conditional Transformation Models* on [CRAN](https://cran.r-project.org/web/packages/deeptrafo/index.html) and [Github](https://github.com/neural-structured-additive-learning/deeptrafo)
 + `safareg` *Structured Additive Factorization Regression* on [Github](https://github.com/neural-structured-additive-learning/safareg)
-+ `deepregression` *Semi-Strutured Deep Distributional Regression* on [CRAN](https://cran.r-project.org/web/packages/deepregression/index.html) and [Github](https://github.com/davidruegamer/deepregression/)
++ `deepregression` *Semi-Strutured Deep Distributional Regression* on [CRAN](https://cran.r-project.org/web/packages/deepregression/index.html) and [Github](https://github.com/neural-structured-additive-learning/deepregression/)
 + `mixdistreg` *Add-on package for deepregression to fit mixture families* on [Github](https://github.com/neural-structured-additive-learning/mixdistreg)
 + `selfmade`  *SELective inference For Mixed and ADditive model Estimators* on [CRAN](https://cran.r-project.org/web/packages/selfmade/index.html) and [Github](https://github.com/davidruegamer/selfmade/)
 + `FDboost`  *Boosting Functional Regression Models* on [CRAN](https://cran.r-project.org/web/packages/FDboost/index.html) and [Github](https://github.com/boost-R/FDboost)
