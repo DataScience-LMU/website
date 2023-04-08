@@ -28,7 +28,7 @@
   photo: emiliod.jpg
   info: PhD Student (co-supervised)
   number_educ: 3
-  education1: PhD Student in the Statistical Learning and Data Science Group (supervisor <a href="https://www.slds.stat.uni-muenchen.de/people/bischl/">Bernd Bischl</a> and <a href="https://scholar.google.com/citations?user=D2wEjisAAAAJ&hl=en">Benjamin Schubert</a>)
+  education1: PhD Student in the Statistical Learning and Data Science Group (supervisors <a href="https://www.slds.stat.uni-muenchen.de/people/bischl/">Bernd Bischl</a> and <a href="https://scholar.google.com/citations?user=D2wEjisAAAAJ&hl=en">Benjamin Schubert</a>)
   education2: Works on uncertainty quantification in semi-structured neural networks
   education3: <a href="https://www.slds.stat.uni-muenchen.de/people/dorigatti/">Homepage</a>
 
@@ -60,7 +60,7 @@
   photo: felixo.jpg
   info: PhD Student (co-supervised)
   number_educ: 3
-  education1: PhD Student in the Statistical Learning and Data Science Group (supervisor <a href="https://www.slds.stat.uni-muenchen.de/people/bischl/">Bernd Bischl</a> and <a href="https://cmutschler.de/">Christopher Mutschler</a>)
+  education1: PhD Student in the Statistical Learning and Data Science Group (supervisor <a href="https://www.slds.stat.uni-muenchen.de/people/bischl/">Bernd Bischl</a>) and Fraunhofer IIS (supervisor <a href="https://cmutschler.de/">Christopher Mutschler</a>)
   education2: Works on camera-based localization with deep learning methods and multimodal information fusion for pose estimation.
   education3: <a href="https://www.slds.stat.uni-muenchen.de/people/ott/">Homepage</a>
 
@@ -76,7 +76,7 @@
   photo: katharinar.jpg
   info: PhD Student (co-supervised)
   number_educ: 3
-  education1: PhD Student in the Statistical Learning and Data Science Group (supervisor <a href="https://www.slds.stat.uni-muenchen.de/people/bischl/">Bernd Bischl</a>) and the <a href="https://www.ipp.mpg.de/">Max Planck Institute for Plasma Physics (IPP)</a> supervised by Udo von Toussaint and Christopher Albert
+  education1: PhD Student in the Statistical Learning and Data Science Group (supervisor <a href="https://www.slds.stat.uni-muenchen.de/people/bischl/">Bernd Bischl</a>) and at the <a href="https://www.ipp.mpg.de/">Max Planck Institute for Plasma Physics (IPP)</a> (supervisors Udo von Toussaint and Christopher Albert)
   education2: Works on Gaussian processes
   education3: <a href="https://www.slds.stat.uni-muenchen.de/people/rath/">Homepage</a>
 
@@ -92,15 +92,15 @@
   photo: theresas.jpg
   info: PhD Student (co-supervised)
   number_educ: 3
-  education1: PhD Student in the Statistical Learning and Data Science Group (supervisor <a href="https://www.slds.stat.uni-muenchen.de/people/bischl/">Bernd Bischl</a>) and the <a href="https://www.lmu-klinikum.de/radiologie/forschung/clinical-data-science/0e8a3ac188dad3f9"></a> supervised by Michael Ingrisch
-  education2: Works machine and deep learning with radiological data
+  education1: PhD Student in the Statistical Learning and Data Science Group (supervisor <a href="https://www.slds.stat.uni-muenchen.de/people/bischl/">Bernd Bischl</a>) and in the <a href="https://www.lmu-klinikum.de/radiologie/forschung/clinical-data-science/0e8a3ac188dad3f9">Clinical Data Science Group</a> (supervisor Michael Ingrisch)
+  education2: Works in machine and deep learning with radiological data
   education3: <a href="https://www.slds.stat.uni-muenchen.de/people/stueber/">Homepage</a>
   
 - name: Tobias Weber
   photo: tobiw.jpg
   info: PhD Student (co-supervised)
   number_educ: 3
-  education1: PhD Student in the Statistical Learning and Data Science Group (supervisor <a href="https://www.slds.stat.uni-muenchen.de/people/bischl/">Bernd Bischl</a>) and the <a href="https://www.lmu-klinikum.de/radiologie/forschung/clinical-data-science/0e8a3ac188dad3f9"></a> supervised by Michael Ingrisch
+  education1: PhD Student in the Statistical Learning and Data Science Group (supervisor <a href="https://www.slds.stat.uni-muenchen.de/people/bischl/">Bernd Bischl</a>) and in the <a href="https://www.lmu-klinikum.de/radiologie/forschung/clinical-data-science/0e8a3ac188dad3f9">Clinical Data Science Group</a> (supervisor Michael Ingrisch)
   education2: Works generative models in the medical image domain
   education3: <a href="https://www.slds.stat.uni-muenchen.de/people/weber/">Homepage</a>
   

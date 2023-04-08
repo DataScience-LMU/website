@@ -135,7 +135,7 @@ Jump to [Members](#members), [Visitors](#visitors), [Students](#students), [Alum
 </div>
 {% endif %}
 
-## Students
+## (Former) Students
 
 {% assign number_printed = 0 %}
 {% for member in site.data.students %}
