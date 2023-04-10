@@ -27,4 +27,4 @@ We regularly supervise theses with industry partners including
 * Telefonica
 * ...
 
-If no topic listed above is done together with a company, you need to contact your/the company you want to work with yourself.
+In case you have a specific collaboration in mind, you need to contact the company you want to work with yourself.

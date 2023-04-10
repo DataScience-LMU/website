@@ -6,7 +6,7 @@ sitemap: false
 permalink: /
 ---
 
-We are the new Data Science group at the Department of Statistics at the LMU Munich. We are interested in statistics, data science, machine and deep learning as well as related fields. Data Science is a broad field and encompasses various aspects of data processing and analysis. The focus of our research in the field of Data Science is on modeling complex systems and collaborating with researchers from other disciplines to solve problems using data-driven methods.
+We are the new Data Science group at the Department of Statistics at the LMU Munich. We are interested in statistics, data science, machine and deep learning with a special focus on modeling complex systems and collaborating with researchers from other disciplines to solve problems using data-driven methods.
 
 
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" >
@@ -63,7 +63,7 @@ If you are curious about the details, please see our [Research](research) page.
 &nbsp;
 &nbsp;
 
-We are grateful for funding from LMU Munich, [BMBF](https://www.bmbf.de/bmbf/de/home/home_node.html) and the [Munich Center for Machine Learning](https://mcml.ai/).
+We are grateful for funding from LMU Munich, [BMBF](https://www.bmbf.de/bmbf/de/home/home_node.html) and the [MCML](https://mcml.ai/).
 
 <figure class="fourth">
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/lmu.png" style="width: 100px">
