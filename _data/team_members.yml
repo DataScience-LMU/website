@@ -2,17 +2,26 @@
   photo: davidr3.jpg
   info: Associate professor
   email: david.ruegamer@gmail.com
-  number_educ: 4
-  education1: PhD in Statistics (2014-2018)  with <a href="https://www.wiwi.hu-berlin.de/en/Professorships/vwl/statistik/team/grevenso">Sonja Greven</a>
-  education2: Senior Data Scientist (2019)
+  number_educ: 5
+  education1: Associate Professor at LMU since summer 2023
+  education2: Interim Professor (2021-2023) at LMU Munich, RWTH Aachen, TU Dortmund
   education3: Postdoc/Lecturer (2020-2021) with <a href="https://www.slds.stat.uni-muenchen.de/people/bischl/">Bernd Bischl</a>
-  education4: Interim Professor (2021-2023) at LMU Munich, RWTH Aachen, TU Dortmund
+  education4: Senior Data Scientist (2019)
+  education5: PhD in Statistics (2014-2018)  with <a href="https://www.wiwi.hu-berlin.de/en/Professorships/vwl/statistik/team/grevenso">Sonja Greven</a>
+
+- name: Marcel Arpogaus
+  photo: marcela.jpg
+  info: PhD Student (co-supervised)
+  number_educ: 3
+  education1: PhD Student at University of Goettingen (supervisors <a href="https://www.uni-goettingen.de/de/264255.html">Thomas Kneib</a>)
+  education2: Works on multivariate transformation models
+  education3: <a href="https://scholar.google.com/citations?user=zfpby28AAAAJ&hl=de">Google Scholar</a>
   
 - name: Philipp Baumann
   photo: philippb.jpg
   info: PhD Student (co-supervised)
   number_educ: 3
-  education1: PhD Student at ETH Zurich (supervisors Torsten Hothorn and Jan-Egbert Sturm)
+  education1: PhD Student at ETH Zurich (supervisors <a href="http://user.math.uzh.ch/hothorn/">Torsten Hothorn</a> and <a href="https://kof.ethz.ch/das-institut/personen/person-detail.MTI5MTQx.TGlzdC81NzgsODQ4OTAwOTg=.html">Jan-Egbert Sturm</a>)
   education2: Works on (autoregressive) transformation models
   education3: <a href="https://scholar.google.com/citations?user=zsk8ERcAAAAJ&hl=en">Google Scholar</a>
 

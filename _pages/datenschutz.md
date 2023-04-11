@@ -3,7 +3,7 @@ title: "Datenschutz"
 layout: default
 excerpt: "Datenschutz"
 sitemap: false
-permalink: /datenschutz.html
+permalink: /datenschutz
 ---
 
 # Datenschutzerklärung

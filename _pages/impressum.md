@@ -3,7 +3,7 @@ title: "Impressum"
 layout: default
 excerpt: "Impressum"
 sitemap: false
-permalink: /impressum.html
+permalink: /impressum
 ---
 
 ## Anschrift
