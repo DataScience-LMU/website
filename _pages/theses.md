@@ -14,6 +14,7 @@ permalink: /theses
 * [Predicting User Smartphone Behavior using Hawkes Processes](https://docs.google.com/document/d/1Iy9lNkBY1UhAlaRJhTNdfM4DKtFnsaqlE7C_eOjkWBA/edit?usp=sharing) (Master thesis)
 * [Knowledge distillation for proteasomal cleavage prediction in a vaccine design framework (write Emilio)](https://docs.google.com/document/d/1tAZzf8_TLvI8Nqt5FfwwYLinSpeYt9llNDs_CBrg9kw/edit) (Master thesis)
 * Functional interpretable machine learning (Master thesis)
+* Interpretability for [foundational synthesis models in medical imaging](https://arxiv.org/abs/2303.11224) (write [Tobias](mailto:tobias.weber@stat.uni-muenchen.de))(Master Thesis)
 * ... (write us an email and ask)
 
 # Thesis with industry partner
