@@ -33,8 +33,9 @@ We try to keep our publications up to date on [Google Scholar](https://scholar.g
 + `cAIC4`  *Conditional Akaike Information Criterion for 'lme4'* on [CRAN](https://cran.r-project.org/web/packages/cAIC4/index.html) and [Github](https://github.com/davidruegamer/cAIC4dev)
 + `iboost`  *Inference for Model-based Boosting* on [Github](https://github.com/davidruegamer/iboost)
 + `coinflibs`  *Conditional Inference after Likelihood-based Selection* on [Github](https://github.com/davidruegamer/coinflibs)
-+ `effortless`  *efficient operations on row-wise tensor product linked evaluations with special structures* on [Github](https://github.com/davidruegamer/effortless)
-
++ `effortless`  *Efficient operations on row-wise tensor product linked evaluations with special structures* on [Github](https://github.com/davidruegamer/effortless)
++ `MaCheX`  *Large scale collection of chest X-ray datasets* on [Github](https://github.com/saiboxx/machex)
++ `Cheff`  *Foundational diffusion model for chest X-ray synthesis* on [Github](https://github.com/saiboxx/chexray-diffusion)
 
 
 &nbsp;
