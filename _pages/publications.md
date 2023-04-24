@@ -13,6 +13,7 @@ We try to keep our publications up to date on [Google Scholar](https://scholar.g
 
 ## Recent Notable Papers
 
+* Ruegamer D *A New PHO-rmula for Improved Performance of Semi-Structured Networks* accepted at **ICML 2023**
 * Weber T, Ingrisch M, Bischl B, Ruegamer D *Cascaded Latent Diffusion Models for High-Resolution Chest X-ray Synthesis* accepted at **PAKDD 2023** ([ArXiv](https://arxiv.org/abs/2303.11224))
 * Pielok T, Bischl B, Ruegamer D *Approximate Bayesian Inference with Stein Functional Variational Gradient Descent* accepted at **ICLR 2023** ([OpenReview](https://openreview.net/forum?id=a2-aoqmeYM4))
 * Dorigatti E, Bischl B, Ruegamer D *Frequentist Uncertainty Quantification in Semi-Structured Neural Networks* accepted at **AIStats 2023** 
