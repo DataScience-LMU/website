@@ -13,14 +13,15 @@ We try to keep our publications up to date on [Google Scholar](https://scholar.g
 
 ## Recent Notable Papers
 
-* Ruegamer D *A New PHO-rmula for Improved Performance of Semi-Structured Networks* accepted at **ICML 2023**
-* Weber T, Ingrisch M, Bischl B, Ruegamer D *Cascaded Latent Diffusion Models for High-Resolution Chest X-ray Synthesis* accepted at **PAKDD 2023** ([ArXiv](https://arxiv.org/abs/2303.11224))
-* Pielok T, Bischl B, Ruegamer D *Approximate Bayesian Inference with Stein Functional Variational Gradient Descent* accepted at **ICLR 2023** ([OpenReview](https://openreview.net/forum?id=a2-aoqmeYM4))
-* Dorigatti E, Bischl B, Ruegamer D *Frequentist Uncertainty Quantification in Semi-Structured Neural Networks* accepted at **AIStats 2023** 
-* Ruegamer D, Kolb C, Klein N *Semi-Structured Distributional Regression* published in **The American Statistician (2023)** ([ArXiv](https://arxiv.org/pdf/2002.05777.pdf))
-* Schalk D, Bischl B, Ruegamer D *Accelerated Componentwise Gradient Boosting using Efficient Data Representation and Momentum-based Optimization* in **Journal of Computational and Graphical Statistics (2022)** ([ArXiv](https://arxiv.org/abs/2110.03513))
-* Mittermeier M, Weigert M, Ruegamer D, Kuechenhoff H, Ludwig R *A Deep Learning Version of Hess & Brezowskys Classification of Großwetterlagen over Europe: Projection of Future Changes in a CMIP6 Large Ensemble* in **Environmental Research Letters (2022)** ([University Library](https://epub.ub.uni-muenchen.de/93788/1/Mittermeier_2022_Environ._Res._Lett._17_084021.pdf))
-* Ott F, Ruegamer D, Heublein L, Bischl B, Mutschler C *Domain Adaptation for Time-Series Classification to Mitigate Covariate Shift* presented at **ACM Multimedia 2022** ([ArXiv](https://arxiv.org/abs/2204.03342))
+* *Towards Efficient MCMC Sampling in Bayesian Neural Networks by Exploiting Symmetry* **ECML 2023** ([ArXiv](https://arxiv.org/abs/2304.02902))
+* *A New PHO-rmula for Improved Performance of Semi-Structured Networks* **ICML 2023** ([ArXiv](https://arxiv.org/abs/2306.00522))
+* *Cascaded Latent Diffusion Models for High-Resolution Chest X-ray Synthesis* **PAKDD 2023** ([ArXiv](https://arxiv.org/abs/2303.11224))
+* *Approximate Bayesian Inference with Stein Functional Variational Gradient Descent* **ICLR 2023** ([OpenReview](https://openreview.net/forum?id=a2-aoqmeYM4))
+* *Frequentist Uncertainty Quantification in Semi-Structured Neural Networks* **AIStats 2023** ([MLR](https://proceedings.mlr.press/v206/dorigatti23a/dorigatti23a.pdf))
+* *Semi-Structured Distributional Regression* **The American Statistician (2023)** ([ArXiv](https://arxiv.org/pdf/2002.05777.pdf))
+* *Accelerated Componentwise Gradient Boosting using Efficient Data Representation and Momentum-based Optimization* **JCGS (2022)** ([ArXiv](https://arxiv.org/abs/2110.03513))
+* *A Deep Learning Version of Hess & Brezowskys Classification of Großwetterlagen over Europe: Projection of Future Changes in a CMIP6 Large Ensemble* **Environmental Research Letters (2022)** ([Uni Lib](https://epub.ub.uni-muenchen.de/93788/1/Mittermeier_2022_Environ._Res._Lett._17_084021.pdf))
+* *Domain Adaptation for Time-Series Classification to Mitigate Covariate Shift* **ACM Multimedia 2022** ([ArXiv](https://arxiv.org/abs/2204.03342))
 
 
 # Software
