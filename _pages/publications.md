@@ -13,6 +13,7 @@ We try to keep our publications up to date on [Google Scholar](https://scholar.g
 
 ## Recent Notable Papers
 
+* *Smoothing the Edges: A General Framework for Smooth Optimization in Sparse Regularization using Hadamard Overparametrization* ([ArXiv](https://arxiv.org/abs/2307.03571))
 * *Towards Efficient MCMC Sampling in Bayesian Neural Networks by Exploiting Symmetry* **ECML 2023** ([ArXiv](https://arxiv.org/abs/2304.02902))
 * *A New PHO-rmula for Improved Performance of Semi-Structured Networks* **ICML 2023** ([ArXiv](https://arxiv.org/abs/2306.00522))
 * *Cascaded Latent Diffusion Models for High-Resolution Chest X-ray Synthesis* **PAKDD 2023** ([ArXiv](https://arxiv.org/abs/2303.11224))
