@@ -5,3 +5,11 @@
   education1: PhD Student at the University of Zurich with <a href="https://www.ebpi.uzh.ch/en/aboutus/departments/biostatistics/teambiostats/sick.html">Beate Sick</a> and <a href="http://user.math.uzh.ch/hothorn/">Torsten Hothron</a>
   education2: Works on causality and distributional regression models with deep learning
   education3: <a href="https://lucaskook.github.io/">Personal Homepage</a>
+  
+- name: Andrew McInerney
+  photo: andrewm.jpg
+  info: PhD in the <a href="https://www.data-science.ie/">SFI Centre for Research Training in Foundations of Data Science</a> (University Limerick)
+  number_educ: 3
+  education1: PhD Student at the University of Limerick with [Kevin Burke](https://kevinburke.ie/)
+  education2: Works on neural networks from a statistical-modelling perspective
+  education3: <a href="https://andrew-mcinerney.github.io/website/">Personal Homepage</a>
