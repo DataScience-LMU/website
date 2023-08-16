@@ -13,6 +13,7 @@ We try to keep our publications up to date on [Google Scholar](https://scholar.g
 
 ## Recent Notable Papers
 
+* *Constrained Probabilistic Mask Learning for Task-specific Undersampled MRI Reconstruction* **WACV 2024** ([ArXiv](https://arxiv.org/abs/2305.16376))
 * *Smoothing the Edges: A General Framework for Smooth Optimization in Sparse Regularization using Hadamard Overparametrization* ([ArXiv](https://arxiv.org/abs/2307.03571))
 * *Towards Efficient MCMC Sampling in Bayesian Neural Networks by Exploiting Symmetry* **ECML 2023** ([ArXiv](https://arxiv.org/abs/2304.02902))
 * *A New PHO-rmula for Improved Performance of Semi-Structured Networks* **ICML 2023** ([ArXiv](https://arxiv.org/abs/2306.00522))
