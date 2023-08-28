@@ -64,14 +64,6 @@
   education1: PhD Student in the Statistical Learning and Data Science Group (supervisor <a href="https://www.slds.stat.uni-muenchen.de/people/bischl/">Bernd Bischl</a>)
   education2: Works on deep survival analysis
   education3: <a href="https://www.slds.stat.uni-muenchen.de/people/kopper/">Homepage</a>
-  
-- name: Felix Ott
-  photo: felixo.jpg
-  info: PhD Student (co-supervised)
-  number_educ: 3
-  education1: PhD Student in the Statistical Learning and Data Science Group (supervisor <a href="https://www.slds.stat.uni-muenchen.de/people/bischl/">Bernd Bischl</a>) and Fraunhofer IIS (supervisor <a href="https://cmutschler.de/">Christopher Mutschler</a>)
-  education2: Works on camera-based localization with deep learning methods and multimodal information fusion for pose estimation.
-  education3: <a href="https://www.slds.stat.uni-muenchen.de/people/ott/">Homepage</a>
 
 - name: Tobias Pielok
   photo: tobip.jpg

@@ -1,3 +1,11 @@
+- name: Felix Ott
+  photo: felixo.jpg
+  info: Former (co-supervised) PhD Student of <a href="https://www.slds.stat.uni-muenchen.de/people/bischl/">Bernd Bischl</a> and <a href="https://cmutschler.de/">Christopher Mutschler</a> from Fraunhofer IIS
+  number_educ: 3
+  education1: PhD in 2023
+  education2: Worked on camera-based localization with deep learning methods and multimodal information fusion for pose estimation.
+  education3: <a href="https://www.slds.stat.uni-muenchen.de/people/ott/">Homepage</a>
+
 - name: Daniel Schalk
   photo: daniels.jpg
   info: Former (co-supervised) PhD Student of <a href="https://www.slds.stat.uni-muenchen.de/people/bischl/">Bernd Bischl</a>
