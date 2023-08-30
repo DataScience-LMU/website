@@ -1,3 +1,6 @@
+- date: 30. August 2023
+  headline: Gregor and Lisa's paper *Towards Efficient MCMC Sampling in Bayesian Neural Networks by Exploiting Symmetry* won the best paper award at ECML-PKDD 2023!!
+
 - date: 28. August 2023
   headline: Felix's paper *Auxiliary Cross-Modal Representation Learning with Triplet Loss Functions for Online Handwriting Recognition* got accepted at IEEE Access!
 
@@ -8,7 +11,7 @@
   headline: We got 106k Euros of funding from LMU to hire new staff for our Machine Learning Consulting Unit!
 
 - date: 20. July 2023
-  headline: Chris won the best paper award at IWSM 2023!
+  headline: Chris won the best paper award at IWSM 2023!!
 
 - date: 7. July 2023	
   headline: New preprint on Arxiv presenting our *General Framework for Smooth Optimization in Sparse Regularization using Hadamard Overparametrization*!
