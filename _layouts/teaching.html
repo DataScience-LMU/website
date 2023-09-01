@@ -1,6 +1,51 @@
 ---
-layout: default
+layout: compress
 ---
-<div id="teaching" class="col-sm-12">
-  {{ content }}
-</div>
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    {% include head.html %}
+</head>
+
+<body>
+    {% include navbar.html %}
+
+    <!--Main Section-->
+    <section class="hero" id="project">
+        <div class="hero-body">
+            <div class="container has-text-centered">
+                <div class="section">
+                    <p class="subtitle is-uppercase has-text-weight-medium has-text-grey">Teaching</p>
+                </div>
+                <div class="content teaching-content">
+                    <h1 class="title is-size-2">Winter term 2023/24</h1>
+                    <ul>
+                        <li><a href="https://moodle.lmu.de/course/view.php?id=xxxxx" target="_blank">Foundations of Statistical Modeling</a></li>
+                        <li><a href="https://moodle.lmu.de/course/view.php?id=xxxxx" target="_blank">Introduction to Practical Statistics</a></li>
+                        <li><a href="https://moodle.lmu.de/course/view.php?id=xxxxx" target="_blank">Seminar Statistical Inference in Data Science</a></li>
+                        <li><a href="https://moodle.lmu.de/course/view.php?id=xxxxx" target="_blank">Applied Deep Learning</a></li>
+                        <li><a href="https://moodle.lmu.de/course/view.php?id=xxxxx" target="_blank">Statistical Consulting</a></li>
+                    </ul>
+                </div>
+                <div class="content teaching-content">
+                    <h1 class="title is-size-2">Summer term 2023</h1>
+                    <ul>
+                        <li><a href="https://moodle.lmu.de/course/view.php?id=27099" target="_blank">Probability-theoretical Foundations of Statistics</a></li>
+                        <li><a href="https://moodle.lmu.de/course/view.php?id=27062" target="_blank">Seminar Probabilistic Machine and Deep Learning</a></li>
+                        <li><a href="https://moodle.lmu.de/course/view.php?id=27101" target="_blank">Deep Learning</a></li>
+                        <li><a href="https://moodle.lmu.de/course/view.php?id=27100" target="_blank">Applied Deep Learning</a></li>
+                        <li><a href="https://moodle.lmu.de/course/view.php?id=3136" target="_blank">Statistical Consulting</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    </div>
+
+    <!--Footer-->
+    {% include footer.html %}
+</body>
+
+</html>

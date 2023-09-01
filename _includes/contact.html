@@ -1,0 +1,13 @@
+<section class="hero has-text-centered" id="contact">
+    <div class="hero-body">
+        <div class="container">
+            {% unless site.email == %}
+            <a id="contact-button" href="mailto:{{site.email}}"
+                class="button is-rounded is-uppercase has-text-weight-normal is-black is-outlined has-text-weight-semibold column is-two-fifths"
+                target="_blank">
+                <i class="fas fa-envelope"></i>Send us an Email
+            </a>
+            {% endunless %}
+        </div>
+    </div>
+</section>

@@ -1,42 +1,88 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
+# WhatATheme
+markdown: kramdown
 
-# Site settings
+# URL of the Site
+url: ''
+# Base URL of the Site (i.e., Name of the Repository in which the Site is hosted)
+baseurl: 
+
+# Title of the Site
 title: Data Science Group @ LMU Munich
-email: david@stat.uni-muenchen.de
-description: > # this means to ignore newlines until "baseurl:"
-  Website of the Data Science Group @ LMU Munich.
-baseurl: ""
-url: ""
+# Description of the Site
+description: Statistics, Data Science and Machine Learning
+# URL of Image of the Site
+site-image: /WhatATheme/assets/images/meta.jpg
+# Keywords of the Site
+site-keywords: Site, Template, Theme
+# URL for the Image of custom Favicon
+favicon-url: 
 
-include:
-  - .htaccess
-  - _pages
+# URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
+heroimage: /assets/images/blogBigData.jpg
 
+# Social Media and Contact
+# If you don't want to use any icon, you can leave them blank.
+email: david.ruegamer@stat.uni-muenchen.de
+github_username: DataScience-LMU
+youtube_channel_id: /
+reddit_username: /
+behance_username: /
+dribbble_username: /
+spotify_username: /
+
+
+# Name of the Author
+author-name: Data Science @ LMU Munich
+# URL for the Image of the Author
+author-image: /assets/images/LMU-Logo.gif
+# 60 Words About the Author
+author-about: Department of Statistics, LMU Munich
+# URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
+author-url: https://github.com/DataScience-LMU
+
+# SASS
 sass:
   sass_dir: _sass
+  style: compressed
 
-# Conversion
-markdown: kramdown
-highlighter: rouge
-lsi: false
-excerpt_separator: "\n\n"
-incremental: false
+# Build settings
+plugins:
+  - jekyll-admin
+  - jekyll-feed
 
+# Permalink
+permalink: "blog/:title"
 
+# Compress
+compress_html:
+  clippings: all
 
-# Markdown Processing
-kramdown:
-  input: GFM
-  hard_wrap: false
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  smart_quotes: lsquo,rsquo,ldquo,rdquo
-  enable_coderay: false
-  parse_block_html: true # default for kramdown is false. This will enable using Markdown links
+# Defaults
+defaults:
+  -
+    scope:
+      type: 'posts'
+    values:
+      layout: post
+      post-image: ""
+      description: ""
+      tags:
+        - ""
+  -
+    scope:
+      type: 'pages'
+    values:
+      layout: page
+
+# Exclude
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/

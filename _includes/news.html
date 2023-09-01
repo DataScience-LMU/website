@@ -1,11 +1,18 @@
-
-<div class="well">
-<h4>News</h4>
-
-{% for article in site.data.news limit:6 %}
-<p>{{ article.date }}<br>{{ article.headline | markdownify}}</p>
-{% endfor %}
-
-<h4><a href="{{ site.url }}{{ site.baseurl }}/allnews.html">... see all News</a></h4>
-
+<section class="hero has-background-white-ter" id="news" style="padding-top: 100px; padding-bottom: 200px;">
+  <div id="results-container" style="width: 90%; max-width: 1200px; margin: auto;">
+    <h1 class="title is-size-1 has-text-centered"><u>News</u></h1>
+    <br>
+    <br>
+    <!--Blog Cards Section-->
+    <div class="columns is-multiline is-centered">
+      {% for post in site.posts limit:9 %}
+        <div class="column is-one-third-desktop is-one-third-tablet" style="margin-bottom: 2rem;">
+          {% include blog-card-short.html %}
+        </div>
+      {% endfor %}
     </div>
+    <br>
+    <br>
+    <h1 class="subtitle is-size-4 has-text-centered"><a href="{{site.url}}{{site.baseurl}}/blog">See all news...</a></h1>
+  </div>
+</section>

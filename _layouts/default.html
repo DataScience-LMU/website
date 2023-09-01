@@ -1,20 +1,69 @@
+---
+layout: compress
+---
+
 <!DOCTYPE html>
 <html>
+{% include head.html %}
 
-  {% include head.html %}
+<body>
+  {% include navbar.html %}
+  {% include showcase.html %}
+  {% include news.html %}
+  {% include about.html %}
+  {% include research.html %}
+  {% include sponsors.html %}
+  {% include contact.html %}
+  <!--Footer begins here-->
+  {% include footer.html %}
+<script>
+  var navItems = document.querySelectorAll('.navbar-end .navbar-item');
+  var sections = [
+    document.getElementById('showcase'),
+    document.getElementById('about'),
+    document.getElementById('contact')
+  ];
 
-  <body>
+  const viewOffset = 200;
 
-    {% include header.html %}
+  window.addEventListener("scroll", function (event) {
+    var scroll = this.scrollY;
 
-    <div class="container-fluid">
-      <div class="row">
-        {{ content }}
-      </div>
-    </div>
+    navItems.forEach((navItem) => navItem.classList.remove('is-active'));
 
-    {% include footer.html %}
+    for (var i = 0; i < sections.length; i++) {
+      var sectionTop = sections[i].offsetTop - viewOffset;
+      var sectionBottom = sections[i].offsetTop + sections[i].offsetHeight - viewOffset;
 
-  </body>
+      if (scroll >= sectionTop && scroll < sectionBottom) {
+        navItems[i].classList.add('is-active');
+      }
+    }
+  });
+</script>
+</body>
+<script>
+  var navItems = document.getElementsByClassName('navbar-item');
+  var heroes = document.getElementsByClassName('hero');
+  const viewOffset = 200; 
+
+  window.addEventListener("scroll", function (event) {
+    var scroll = this.scrollY;
+    var position = window.pageYOffset;
+
+    for (var i = 0; i < navItems.length; i++) {
+      navItems[i].classList.remove('is-active');
+    }
+
+    for (var i = 0; i < heroes.length; i++) {
+        var sectionTop = heroes[i].offsetTop-viewOffset;
+        var sectionBottom = heroes[i].offsetTop + heroes[i].offsetHeight-viewOffset;
+
+        if (scroll >= sectionTop && scroll < sectionBottom) {
+          navItems[i+1].classList.add('is-active');
+      }
+    }
+  });
+</script>
 
 </html>
