@@ -18,7 +18,7 @@
   photo: danield.jpg
   info: PhD Student (co-supervised)
   number_educ: 3
-  education1: Daniel is PhD Student in the Statistical Learning and Data Science Group (supervisor <a href="https://www.slds.stat.uni-muenchen.de/people/bischl/">Bernd Bischl</a> and <a href="https://oduerr.github.io/about/">Oliver Duerr</a>) and works on uncertainty quantification in Bayesian neural networks.
+  info2: Daniel is PhD Student in the Statistical Learning and Data Science Group (supervisor <a href="https://www.slds.stat.uni-muenchen.de/people/bischl/">Bernd Bischl</a> and <a href="https://oduerr.github.io/about/">Oliver Duerr</a>) and works on uncertainty quantification in Bayesian neural networks.
   
 - name: Emilio Dorigatti
   photo: emiliod.jpg
