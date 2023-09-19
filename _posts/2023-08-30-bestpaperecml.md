@@ -1,7 +1,7 @@
 ---
 title: Lisa and Gregor won the best paper award at ECML-PKDD!!
 layout: post
-post-image: "https://ecmlpkdd.org/uploads/Main/torinologo.jpg"
+post-image: "/website/assets/images/posts/gregor_ecml.jpg"
 description: Gregor and Lisa's paper *Towards Efficient MCMC Sampling in Bayesian Neural Networks by Exploiting Symmetry* won the best paper award at ECML-PKDD 2023!!
 tags:
 - lisa
