@@ -75,6 +75,11 @@
   info: PhD Student (co-supervised)
   info2: Philipp is a PhD Student in the Statistics and Econometrics Group (supervisor <a href="https://www.finmetrics.statistik.uni-muenchen.de/personen/emeriti/mittnik/index.html">Stefan Mittnik</a>) and works on deep time series models and convex optimization.
   
+- name: Emanuel Sommer
+  photo: emanuels.jpg
+  info: PhD Student
+  info2: Emanuel is a PhD Student in the Data Science Group. Previously he worked on dependence modeling in the realm of risk measure forecasting and as a Data Scientist, specializing in large-scale Learning-to-Rank Applications. He is currently working on Bayesian Deep Learning.
+
 - name: Theresa Stueber
   photo: theresas.jpg
   info: PhD Student (co-supervised)
