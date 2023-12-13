@@ -9,10 +9,10 @@
   number_educ: 3
   info2: Marcel is PhD Student at University of Goettingen (supervisor <a href="https://www.uni-goettingen.de/de/264255.html">Thomas Kneib</a>) and works on multivariate transformation models.
   
-- name: Philipp Baumann
+- name: Dr. Philipp Baumann
   photo: philippb.jpg
   info: PhD Student (co-supervised)
-  info2: Philipp is PhD Student at ETH Zurich (supervisors <a href="http://user.math.uzh.ch/hothorn/">Torsten Hothorn</a> and <a href="https://kof.ethz.ch/das-institut/personen/person-detail.MTI5MTQx.TGlzdC81NzgsODQ4OTAwOTg=.html">Jan-Egbert Sturm</a>) and works on (autoregressive) transformation models.
+  info2: Philipp is a former PhD Student at ETH Zurich (supervisors <a href="http://user.math.uzh.ch/hothorn/">Torsten Hothorn</a> and <a href="https://kof.ethz.ch/das-institut/personen/person-detail.MTI5MTQx.TGlzdC81NzgsODQ4OTAwOTg=.html">Jan-Egbert Sturm</a>) and works on (autoregressive) transformation models.
 
 - name: Daniel Dold
   photo: danield.jpg
@@ -25,35 +25,15 @@
   info: PhD Student (co-supervised)
   info2: Emilio is PhD Student in the Statistical Learning and Data Science Group (supervisors <a href="https://www.slds.stat.uni-muenchen.de/people/bischl/">Bernd Bischl</a> and <a href="https://scholar.google.com/citations?user=D2wEjisAAAAJ&hl=en">Benjamin Schubert</a>) and works on uncertainty quantification in semi-structured neural networks.
 
-- name: Jann Goschenhofer
-  photo: janng.jpg
-  info: PhD Student (co-supervised)
-  info2: Jann is PhD Student in the Statistical Learning and Data Science Group (supervisor <a href="https://www.slds.stat.uni-muenchen.de/people/bischl/">Bernd Bischl</a>) and works on learning with limited labeled data.
-  
 - name: Chris Kolb
   photo: chrisk.jpg
   info: PhD Student (co-supervised)
   info2: Chris is PhD Student in the Statistical Learning and Data Science Group (supervisor <a href="https://www.slds.stat.uni-muenchen.de/people/bischl/">Bernd Bischl</a>) and works on sparsity in neural networks.
-
-- name: Dr. Lucas Kook
-  photo: lucask.jpg
-  info: Postdoc (Visitor)
-  info2: Lucas did his PhD Student at the University of Zurich with <a href="https://www.ebpi.uzh.ch/en/aboutus/departments/biostatistics/teambiostats/sick.html">Beate Sick</a> and <a href="http://user.math.uzh.ch/hothorn/">Torsten Hothorn</a> and now works on causality and distributional regression models with deep learning in the <a href="https://cocala.github.io/">Copenhagen Causality Lab</a>.
   
 - name: Philipp Kopper
   photo: philippk.jpg
   info: PhD Student (co-supervised)
   info2: Philipp is a PhD Student in the Statistical Learning and Data Science Group (supervisor <a href="https://www.slds.stat.uni-muenchen.de/people/bischl/">Bernd Bischl</a>) and works on deep survival analysis.
-  
-- name: Andrew McInerney
-  photo: andrewm.jpg
-  info: PhD Student (Visitor)
-  info2: Andrew is a PhD Student at the University of Limerick with <a href="https://kevinburke.ie/">Kevin Burke</a> and works on neural networks from a statistical-modelling perspective.
-
-- name: Dr. Felix Ott
-  photo: felixo.jpg
-  info: Former (co-supervised) PhD Student 
-  info2: Felix is a former PhD student of <a href="https://www.slds.stat.uni-muenchen.de/people/bischl/">Bernd Bischl</a> and <a href="https://cmutschler.de/">Christopher Mutschler</a> from Fraunhofer IIS who obtained his PhD in 2023 for his work on camera-based localization with deep learning methods and multimodal information fusion for pose estimation.
 
 - name: Tobias Pielok
   photo: tobip.jpg
@@ -64,11 +44,6 @@
   photo: katharinar.jpg
   info: PhD Student (co-supervised)
   info2: Katharina is a PhD Student in the Statistical Learning and Data Science Group (supervisor <a href="https://www.slds.stat.uni-muenchen.de/people/bischl/">Bernd Bischl</a>) and at the <a href="https://www.ipp.mpg.de/">Max Planck Institute for Plasma Physics (IPP)</a> (supervisors Udo von Toussaint and Christopher Albert) and works on Gaussian processes.
-
-- name: Dr. Daniel Schalk
-  photo: daniels.jpg
-  info: Former (co-supervised) PhD Student 
-  info2: Daniel is a former PhD Student of <a href="https://www.slds.stat.uni-muenchen.de/people/bischl/">Bernd Bischl</a> and obtained his PhD for his work on component-wise gradient boosting.
 
 - name: Philipp Schiele
   photo: philipps.jpg

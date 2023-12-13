@@ -30,3 +30,64 @@
   </div>
 </section>
 
+<section id="aboutv" style="padding-top: 100px;">
+<h1 class="title is-size-1 has-text-centered"><u>Past Visitors</u></h1>
+<br>
+  <div class="columns is-multiline">
+    {% for person in site.data.pastvisitors %}
+      <!-- Individual divs for each person -->
+      <div class="column is-half fixed-height">
+          <section class="hero has-text-centered has-background-white" style="padding-top: 40px; padding-bottom: 40px; padding-left: 20px; padding-right: 20px;" id="{{ person.name | slugify }}">
+              <div class="hero-body" style="padding: 1rem;">
+                  <div class="container">
+                      <div class="columns">
+                          <div class="column is-one-fifth-desktop is-one-fifth-tablet is-one-fifth-fullhd">
+                              <figure class="image">
+                                  <img class="is-rounded team-image" src="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/{{ person.photo }}" alt="{{ person.name }}">
+                              </figure>
+                          </div>
+                          <div class="column has-text-left-desktop has-text-left-tablet has-text-left-fullhd has-text-left-widescreen">
+                              <h2 class="title" style="font-size: 1.5rem;">{{ person.name }}</h2>
+                              <br>
+                              <h4 class="subtitle" style="font-size: 1rem;">{{ person.info }}</h4>
+                              <p>{{ person.info2 }}</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </section>
+      </div>
+    {% endfor %}
+  </div>
+</section>
+
+<section id="aboutv" style="padding-top: 100px;">
+<h1 class="title is-size-1 has-text-centered"><u>Alumni</u></h1>
+<br>
+  <div class="columns is-multiline">
+    {% for person in site.data.alumni %}
+      <!-- Individual divs for each person -->
+      <div class="column is-half fixed-height">
+          <section class="hero has-text-centered has-background-white" style="padding-top: 40px; padding-bottom: 40px; padding-left: 20px; padding-right: 20px;" id="{{ person.name | slugify }}">
+              <div class="hero-body" style="padding: 1rem;">
+                  <div class="container">
+                      <div class="columns">
+                          <div class="column is-one-fifth-desktop is-one-fifth-tablet is-one-fifth-fullhd">
+                              <figure class="image">
+                                  <img class="is-rounded team-image" src="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/{{ person.photo }}" alt="{{ person.name }}">
+                              </figure>
+                          </div>
+                          <div class="column has-text-left-desktop has-text-left-tablet has-text-left-fullhd has-text-left-widescreen">
+                              <h2 class="title" style="font-size: 1.5rem;">{{ person.name }}</h2>
+                              <br>
+                              <h4 class="subtitle" style="font-size: 1rem;">{{ person.info }}</h4>
+                              <p>{{ person.info2 }}</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </section>
+      </div>
+    {% endfor %}
+  </div>
+</section>
