@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-gem "jekyll"
+gem "jekyll", "=3.9.3"
 gem "rack"
 gem "webrick", "~> 1.7"
 gem "kramdown-parser-gfm" # Add this line
