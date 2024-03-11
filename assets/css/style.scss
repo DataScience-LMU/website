@@ -68,21 +68,54 @@ a.navbar-item.is-active {
     letter-spacing: 0.25rem;
 }
 
-#about {
-    .image {
-        max-width: 20vmax;
-        margin: auto;
+#about .image, #aboutv .image, #abouta .image {
+    position: relative;
+    width: 128px; /* Desired size of the square and thus the circle */
+    height: 128px; /* Same as width to ensure a square */
+    border-radius: 50%; /* Creates the circular shape */
+    overflow: hidden; /* Ensures that the excess part of the image is not visible */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Aligns the image to the top */
+    margin: auto;
 
-        img {
-            border: 0.25rem dotted black;
-        }
-    }
-
-    a {
-        min-width: 25vmax;
-        margin: 0.5rem;
+    img {
+        width: 100%; /* Ensures the image covers the width */
+        min-height: 100%; /* Ensures the image covers the height at minimum */
+        object-fit: cover; /* Cover the container without stretching, cropping as needed */
+        object-position: top; /* Align the most visually interesting part of the image at the top */
     }
 }
+
+
+
+/* Media Queries for further responsiveness */
+@media (max-width: 768px) {
+    #about .image {
+        max-width: 128px; /* Smaller max-width for smaller devices to keep images from becoming too large */
+    }
+
+    #abouta .image {
+        max-width: 128px; /* Smaller max-width for smaller devices to keep images from becoming too large */
+    }
+    
+    #aboutv .image {
+        max-width: 128px; /* Smaller max-width for smaller devices to keep images from becoming too large */
+    }
+
+    #about a {
+        min-width: 50%; /* Adjust if needed for links */
+    }
+    
+    #aboutv a {
+        min-width: 50%; /* Adjust if needed for links */
+    }
+    
+    #abouta a {
+        min-width: 50%; /* Adjust if needed for links */
+    }
+}
+
 
 #contact {
     #contact-button {
@@ -123,40 +156,32 @@ a.navbar-item.is-active {
         margin-left: 2.5vmax;
         line-height: normal;
         border-radius: 0.25rem;
-        -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
-        -moz-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
         box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
 
         &:hover {
             transform: scale(0.875);
-            -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.25);
-            -moz-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.25);
             box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.25);
         }
 
         @media (max-width: 768px) {
-            transform: scale(1);
+            transform: scale(1); // Reset scaling on mobile for better use of space
             margin-bottom: 5vmax !important;
+            margin-right: 1vmax !important;
+            margin-left: 1vmax !important;
 
             &:hover {
                 transform: scale(1.025);
                 margin-bottom: 5vmax !important;
-                -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.25);
-                -moz-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.25);
                 box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.25);
             }
 
             .image {
-                padding-top: 50% !important;
+                padding-top: 50% !important; // Adjust if necessary to keep image aspect ratio
             }
         }
 
-        .title {
+        .title, .content {
             margin: 0.5rem !important;
-        }
-
-        .content {
-            margin: 0.5rem;
         }
 
         .column {
@@ -353,3 +378,46 @@ a.navbar-item.is-active {
         }
     }
 }
+
+#research {
+    .container {
+        padding: 0 1rem; /* Adds padding to the container */
+        max-width: 800px; /* Restricts the maximum width for better readability */
+        margin: auto; /* Centers the container */
+    }
+
+    ul {
+        list-style-type: none; /* Removes the default list style */
+        padding-left: 20px; /* Adds indentation to the list */
+    }
+
+    ul li {
+        margin-bottom: 0.5em; /* Adds spacing between list items */
+        padding-left: 1em; /* Further indentation for list items */
+        text-indent: -1em; /* Adjust text indentation to align with the bullet points */
+    }
+
+    ul li::before {
+        content: '• '; /* Adds custom bullet points */
+        color: #333; /* Bullet point color */
+        font-weight: bold; /* Make bullet points bold */
+    }
+
+    a {
+        color: #3273dc; /* Adjust the color to fit your site's theme */
+        text-decoration: none; /* Removes underline from links */
+    }
+
+    a:hover {
+        text-decoration: underline; /* Underlines links on hover for better interaction feedback */
+    }
+
+    /* Media Query for Larger Screens */
+    @media (min-width: 1024px) {
+        .container {
+            max-width: 1400px; /* Increases the maximum width on larger screens */
+            padding: 0 2rem; /* Optional: Increases padding on larger screens for better edge spacing */
+        }
+    }
+}
+
