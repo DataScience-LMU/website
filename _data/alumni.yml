@@ -3,7 +3,7 @@
   info: Former PhD Student (co-supervised)
   info2: Philipp was a PhD Student at ETH Zurich (supervisors <a href="http://user.math.uzh.ch/hothorn/">Torsten Hothorn</a> and <a href="https://kof.ethz.ch/das-institut/personen/person-detail.MTI5MTQx.TGlzdC81NzgsODQ4OTAwOTg=.html">Jan-Egbert Sturm</a>) and worked on (autoregressive) transformation models.
   
-- name: Emilio Dorigatti
+- name: Dr. Emilio Dorigatti
   photo: emiliod.jpg
   info: Former PhD Student (co-supervised)
   info2: Emilio was a PhD Student in the Statistical Learning and Data Science Group (supervisors <a href="https://www.slds.stat.uni-muenchen.de/people/bischl/">Bernd Bischl</a> and <a href="https://scholar.google.com/citations?user=D2wEjisAAAAJ&hl=en">Benjamin Schubert</a>) and worked on uncertainty quantification in semi-structured neural networks.
@@ -28,8 +28,12 @@
   info: Former (co-supervised) PhD Student 
   info2: Daniel is a former PhD Student of <a href="https://www.slds.stat.uni-muenchen.de/people/bischl/">Bernd Bischl</a> and obtained his PhD for his work on component-wise gradient boosting.
 
-- name: Philipp Schiele
+- name: Dr. Philipp Schiele
   photo: philipps.jpg
   info: PhD Student (co-supervised)
-  info2: Philipp was a PhD Student in the Statistics and Econometrics Group, how Postdoc with Stephen Boyd in Stanford, and works on deep time series models and convex optimization.
-  
+  info2: Philipp was a PhD Student in the Statistics and Econometrics Group, then Postdoc with Stephen Boyd in Stanford.
+    
+- name: Tobias Weber
+  photo: tobiw.jpg
+  info: PhD Student
+  info2: Tobias is a PhD Student in the Statistical Learning and Data Science Group (supervisor <a href="https://www.slds.stat.uni-muenchen.de/people/bischl/">Bernd Bischl</a>) and in the <a href="https://www.lmu-klinikum.de/radiologie/forschung/clinical-data-science/0e8a3ac188dad3f9">Clinical Data Science Group</a> (supervisor Michael Ingrisch) and works on generative models in the medical image domain.
