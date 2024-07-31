@@ -2,50 +2,79 @@
   photo: davidr3.jpg
   info: Associate professor
   info2: Associate Professor and Group Leader at LMU since summer 2023. Before David was Interim Professor at LMU Munich, RWTH Aachen, TU Dortmund and also Senior Data Scientist in 2019. He earned his PhD in Statistics in 2018 (supervisor <a href="https://www.wiwi.hu-berlin.de/en/Professorships/vwl/statistik/team/grevenso">Sonja Greven</a>).
+  email: david@stat.uni-muenchen.de
+  linkedin: david-ruegamer
+  github: davidruegamer
 
 - name: Marcel Arpogaus
   photo: marcela.jpg
   info: PhD Student (co-supervised)
   number_educ: 3
   info2: Marcel is PhD Student at University of Goettingen (supervisor <a href="https://www.uni-goettingen.de/de/264255.html">Thomas Kneib</a>) and works on multivariate transformation models.
+  linkedin: marpogaus
+  github: MArpogaus
 
 - name: Daniel Dold
   photo: danield.jpg
   info: PhD Student (co-supervised)
   number_educ: 3
   info2: Daniel is PhD Student in the Data Science Group (co-supervisor <a href="https://oduerr.github.io/about/">Oliver Duerr</a>) and works on uncertainty quantification in Bayesian neural networks.
+  email: daniel.dold@htwg-konstanz.de
+  github: doldd
 
 - name: Chris Kolb
   photo: chrisk.jpg
   info: PhD Student (co-supervised)
   info2: Chris is PhD Student in the Statistical Learning and Data Science Group (supervisor <a href="https://www.slds.stat.uni-muenchen.de/people/bischl/">Bernd Bischl</a>) and works on sparsity in neural networks.
-  
+  email: chris.kolb@stat.uni-muenchen.de
+  linkedin: chris-kolb
+  github: chriskolb
+
+
 - name: Philipp Kopper
   photo: philippk.jpg
   info: PhD Student (co-supervised)
   info2: Philipp is a PhD Student in the Statistical Learning and Data Science Group (supervisor <a href="https://www.slds.stat.uni-muenchen.de/people/bischl/">Bernd Bischl</a>) and works on deep survival analysis.
+  email: philipp.kopper@stat.uni-muenchen.de
+  linkedin: philipp-kopper-077913102
+  github: pkopper
 
 - name: Tobias Pielok
   photo: tobip.jpg
   info: PhD Student (co-supervised)
   info2: Tobias is a PhD Student in the Statistical Learning and Data Science Group (supervisor <a href="https://www.slds.stat.uni-muenchen.de/people/bischl/">Bernd Bischl</a>) and works on Bayesian deep learning and model-based optimization.
+  email: tobias.pielok@stat.uni-muenchen.de
+  linkedin: tobias-pielok-1647212a4
+  github: tpielok
 
 - name: Emanuel Sommer
   photo: emanuels.jpg
   info: PhD Student
   info2: Emanuel is a PhD Student in the Data Science Group. Previously he worked on dependence modeling in the realm of risk measure forecasting and as a Data Scientist, specializing in large-scale Learning-to-Rank Applications. He is currently working on Bayesian Deep Learning.
+  email: emanuel@stat.uni-muenchen.de
+  linkedin: emanuelsommer
+  github: EmanuelSommer
 
 - name: Rickmer Schulte
   photo: rickmers.jpg
   info: PhD Student
   info2: Rickmer is a PhD Student in the Data Science Group. He is currently working on Optimization and Boosting methods.
+  email: rickmer.schulte@stat.uni-muenchen.de
+  linkedin: rickmer-schulte
+  github: rickmer-schulte
 
 - name: Theresa Stueber
   photo: theresas.jpg
   info: PhD Student (co-supervised)
   info2: Theresa is a PhD Student in the Statistical Learning and Data Science Group (supervisor <a href="https://www.slds.stat.uni-muenchen.de/people/bischl/">Bernd Bischl</a>) and in the <a href="https://www.lmu-klinikum.de/radiologie/forschung/clinical-data-science/0e8a3ac188dad3f9">Clinical Data Science Group</a> (supervisor Michael Ingrisch), and works in the area of machine and deep learning with radiological data.
-  
+  email: theresa.stueber@stat.uni-muenchen.de
+  linkedin: theresa-stüber-158029197
+  github: tess-st
+
 - name: Lisa Wimmer
   photo: lisaw.jpg
   info: PhD Student (co-supervised)
   info2: Lisa is a PhD Student in the Statistical Learning and Data Science Group (supervisor <a href="https://www.slds.stat.uni-muenchen.de/people/bischl/">Bernd Bischl</a>) and works on uncertainty quantification in deep learning.
+  email: lisa.wimmer@stat.uni-muenchen.de
+  linkedin: lisa-wimmer-86936316a
+  github: lisa-wm

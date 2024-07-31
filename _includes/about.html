@@ -20,6 +20,20 @@
                               <br>
                               <h4 class="subtitle" style="font-size: 1rem;">{{ person.info }}</h4>
                               <p>{{ person.info2 }}</p>
+                              <!-- Links to social media and most importantly email -->
+                                <div class="columns is-multiline">
+                                    <div class="column is-full">
+                                        {% if person.email %}
+                                            <a href="mailto:{{ person.email }}"><i class="fas fa-envelope" style="color: black;"></i></a>
+                                        {% endif %}
+                                        {% if person.linkedin %}
+                                            <a href="http://linkedin.com/in/{{ person.linkedin }}"><i class="fab fa-linkedin" style="color: black;"></i></a>
+                                        {% endif %}
+                                        {% if person.github %}
+                                            <a href="https://github.com/{{ person.github }}"><i class="fab fa-github" style="color: black;"></i></a>
+                                        {% endif %}
+                                    </div>
+                                </div>
                           </div>
                       </div>
                   </div>
