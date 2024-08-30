@@ -21,6 +21,13 @@
   info2: Daniel is PhD Student in the Data Science Group (co-supervisor <a href="https://oduerr.github.io/about/">Oliver Duerr</a>) and works on uncertainty quantification in Bayesian neural networks.
   email: daniel.dold@htwg-konstanz.de
   github: doldd
+  
+- name: Maarten Jung
+  photo: maartenj.png
+  info: PhD Student (co-supervised)
+  info2: Maarten is a PhD student in the Data Science Group (co-supervisor <a href="https://hu.berlin/sg">Sonja Greven</a>) and works on semi-structured extensions of conditional density regression models.
+  email: maarten.jung@stat.uni-muenchen.de
+  github: maarten-jung
 
 - name: Chris Kolb
   photo: chrisk.jpg
