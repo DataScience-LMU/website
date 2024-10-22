@@ -46,6 +46,13 @@
   linkedin: philipp-kopper-077913102
   github: pkopper
 
+- name: Richard Paul
+  photo: richi.jpg
+  info: PhD Student (co-supervised)
+  info2: Richard is a PhD Student at Forschungszentrum Jülich (supervisors <a href="https://www.fz-juelich.de/profile/scharr_h">Hanno Scharr</a> and <a href="https://www.fz-juelich.de/profile/noeh_k">Katharina Nöh</a>) and works on probabilistic live-cell imaging & analysis.
+  email: r.paul@fz-juelich.de
+  github: ripaul
+
 - name: Tobias Pielok
   photo: tobip.jpg
   info: PhD Student (co-supervised)
