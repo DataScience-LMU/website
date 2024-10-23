@@ -5,10 +5,10 @@
 
 - name: Dr. Lucas Kook
   photo: lucask.jpg
-  info: Postdoc (Visited in 2023)
-  info2: Lucas did his PhD Student at the University of Zurich with <a href="https://www.ebpi.uzh.ch/en/aboutus/departments/biostatistics/teambiostats/sick.html">Beate Sick</a> and <a href="http://user.math.uzh.ch/hothorn/">Torsten Hothorn</a> and now works on causality and distributional regression models with deep learning in the <a href="https://cocala.github.io/">Copenhagen Causality Lab</a>.
+  info: Assistant Professor (Visited in 2023)
+  info2: Lucas did his PhD Student at the University of Zurich and Postdoc in the <a href="https://cocala.github.io/">Copenhagen Causality Lab</a>. He is now Assistant Professor at the WU Vienna. He works on causality and distributional regression models in combination with deep learning.
   
-- name: Andrew McInerney
+- name: Andrew McInerney, PhD
   photo: andrewm.jpg
-  info: PhD Student (Visited in Summer 2023)
-  info2: Andrew is a PhD Student at the University of Limerick with <a href="https://kevinburke.ie/">Kevin Burke</a> and works on neural networks from a statistical-modelling perspective.
+  info: Former PhD Student (Visited in Summer 2023)
+  info2: Andrew did his PhD at the University of Limerick with <a href="https://kevinburke.ie/">Kevin Burke</a> and worke on neural networks from a statistical-modelling perspective.
