@@ -29,6 +29,14 @@
   email: maarten.jung@stat.uni-muenchen.de
   github: maarten-jung
 
+- name: Julius Kobialka
+  photo: juliusk.jpg
+  info: PhD Student
+  info2: Julius is a PhD Student in the Data Science Group. He is currently working on Uncertainty Quantification in Deep Learning and Bayesian Deep Learning.
+  email: julius@stat.uni-muenchen.de
+  linkedin: juliuskobialka
+  github: j-kobialka
+
 - name: Chris Kolb
   photo: chrisk.jpg
   info: PhD Student (co-supervised)
@@ -36,7 +44,6 @@
   email: chris.kolb@stat.uni-muenchen.de
   linkedin: chris-kolb
   github: chriskolb
-
 
 - name: Philipp Kopper
   photo: philippk.jpg
