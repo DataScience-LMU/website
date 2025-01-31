@@ -1,0 +1,32 @@
+name: Daily Build
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # This cron syntax schedules the job to run daily at midnight UTC
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '2.7'
+
+      - name: Install dependencies
+        run: bundle install
+
+      - name: Build the site
+        run: bundle exec jekyll build
+
+      - name: Commit and push any changes
+        run: |
+          git config --global user.email "juliuskobialka@gmail.com"
+          git config --global user.name "Julius Kobialka"
+          git add .
+          git commit -m "Daily rebuild update" || echo "No changes to commit"
+          git push
