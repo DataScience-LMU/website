@@ -1,8 +1,9 @@
 name: Daily Build
 
 on:
-  schedule:
-    - cron: '0 0 * * *'  # This cron syntax schedules the job to run daily at midnight UTC
+  # schedule:
+  #   - cron: '0 0 * * *'  # This cron syntax schedules the job to run daily at midnight UTC
+  workflow_dispatch:  # This allows running the workflow manually from the GH Actions tab
 
 jobs:
   build:
