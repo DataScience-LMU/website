@@ -1,0 +1,34 @@
+name: Daily Build
+
+on:
+  # schedule:
+  #   - cron: '0 0 * * *'  # This cron syntax schedules the job to run daily at midnight UTC
+  workflow_dispatch:  # This allows running the workflow manually from the GH Actions tab
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '2.7'
+
+      - name: Install dependencies
+        run: bundle install
+
+      - name: Build the site
+        run: bundle exec jekyll build
+
+      - name: Commit and push any changes
+        run: |
+          git config --global user.email "${{ github.actor }}@users.noreply.github.com"
+          git config --global user.name "${{ github.actor }}"
+          git add .
+          git commit -m "Bluesky feed rebuild update" || echo "No changes to commit"
+          git push
+
