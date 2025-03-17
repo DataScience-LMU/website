@@ -45,14 +45,6 @@
   linkedin: chris-kolb
   github: chriskolb
 
-- name: Philipp Kopper
-  photo: philippk.jpg
-  info: PhD Student (co-supervised)
-  info2: Philipp is a PhD Student in the Statistical Learning and Data Science Group (supervisor <a href="https://www.slds.stat.uni-muenchen.de/people/bischl/">Bernd Bischl</a>) and works on deep survival analysis.
-  email: philipp.kopper@stat.uni-muenchen.de
-  linkedin: philipp-kopper-077913102
-  github: pkopper
-
 - name: Richard Paul
   photo: richi.jpg
   info: PhD Student (co-supervised)
