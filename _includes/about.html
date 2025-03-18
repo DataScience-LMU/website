@@ -51,9 +51,9 @@
 <section id="aboutv" style="padding-top: 100px;">
     <h2 class="title is-size-3 has-text-centered">Visitors</h2>
     <br>
-    <div class="columns is-multiline">
-        <div class="column is-full">
-            <ul>
+    <div class="columns is-multiline is-centered">
+        <div class="column is-half has-text-centered">
+            <ul style="list-style: none; padding: 0;">
                 {% for person in site.data.pastvisitors %}
                     <li><strong>{{ person.name }}</strong> - {{ person.info }}</li>
                 {% endfor %}
@@ -65,9 +65,9 @@
 <section id="abouta" style="padding-top: 100px;">
     <h2 class="title is-size-3 has-text-centered">Alumni</h2>
     <br>
-    <div class="columns is-multiline">
-        <div class="column is-full">
-            <ul>
+    <div class="columns is-multiline is-centered">
+        <div class="column is-half has-text-centered">
+            <ul style="list-style: none; padding: 0;">
                 {% for person in site.data.alumni %}
                     <li><strong>{{ person.name }}</strong> - {{ person.info }}</li>
                 {% endfor %}
