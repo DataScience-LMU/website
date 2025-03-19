@@ -9,7 +9,9 @@ baseurl:
 # Title of the Site
 title: muniq.ai
 # Description of the Site
-description: Munich Uncertainty Quantification AI Lab
+description: |
+  Munich Uncertainty Quantification AI Lab
+  @LMU Munich
 # URL of Image of the Site
 site-image: /assets/images/LMU-Logo.gif
 # Keywords of the Site
