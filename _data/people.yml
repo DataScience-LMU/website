@@ -45,7 +45,7 @@
   linkedin: chris-kolb
   github: chriskolb
   
-  - name: Yawei Li
+- name: Yawei Li
   photo: yaweil.jpg
   info: PhD Student (collaborating)
   info2: Yawei is a PhD student in Statistical Learning and Data Science Group (supervisor <a href="https://www.slds.stat.uni-muenchen.de/people/bischl/">Bernd Bischl</a>) and works on uncertainty quantification and explainability of large language models.
