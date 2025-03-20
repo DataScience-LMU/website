@@ -6,6 +6,14 @@
   linkedin: david-ruegamer
   github: davidruegamer
 
+- name: Mohsin Ali
+  photo: mohsin.jpg
+  info: PhD Student
+  info2: Mohsin is a PhD Student in the muniq.ai lab and Huawei. He is currently working on Learning based Compression Algorithms.
+  email: syed.mohsin.ali1@huawei.com
+  linkedin: smohsinali110
+  github: smohsinali
+  
 - name: Marcel Arpogaus
   photo: marcela.jpg
   info: PhD Student (co-supervised)
@@ -100,10 +108,10 @@
   linkedin: lisa-wimmer-86936316a
   github: lisa-wm
 
-- name: Mohsin Ali
-  photo: mohsin.jpg
-  info: PhD Student
-  info2: Mohsin is a PhD Student in the muniq.ai lab and Huawei. He is currently working on Learning based Compression Algorithms.
-  email: syed.mohsin.ali1@huawei.com
-  linkedin: smohsinali110
-  github: smohsinali
+- name: Qiwen Xu
+  photo: qiwen.png
+  info: PhD Student (co-supervised)
+  info2: Qiwen is a PhD Student in the muniq.ai lab, the Machine Learning Consulting Unit (supervised by Dr. Andreas Bender) and the Mannheim Medical Faculty (supervised by Mate Maros). Currently, Qiwen's research focuses on generative models in the field of medical imaging, exploring deep learning approaches for data synthesis and enhancement.
+  email: qiwen.xu@stat.uni-muenchen.de
+  linkedin: qiwen-xu
+  github: qiwen-1123
