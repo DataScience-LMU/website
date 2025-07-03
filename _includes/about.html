@@ -1,5 +1,40 @@
 <!-- Parent div for "About" section -->
 <section id="about" style="padding-top: 100px;">
+
+  <!-- Team Lead Heading -->
+  <h1 class="title is-size-1 has-text-centered"><u>Team Lead</u></h1>
+  <br>
+
+  <!-- Team Lead Section -->
+  <div class="columns is-centered">
+    <div class="column is-half-desktop is-full-mobile fixed-height">
+      <section class="hero has-text-centered has-background-white" style="padding: 40px 20px;" id="{{ site.data.head.name | slugify }}">
+        <div class="hero-body" style="padding: 1rem;">
+          <div class="container">
+            <figure class="image is-128x128-mobile is-256x256-desktop is-inline-block">
+              <img class="is-rounded team-image" src="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/{{ site.data.head.photo }}" alt="{{ site.data.head.name }}">
+            </figure>
+            <h2 class="title" style="font-size: 1.5rem; margin-top: 1rem;">{{ site.data.head.name }}</h2>
+            <h4 class="subtitle" style="font-size: 1rem;">{{ site.data.head.info }}</h4>
+            <p>{{ site.data.head.info2 }}</p>
+            <div>
+              {% if site.data.head.email %}
+                <a href="mailto:{{ site.data.head.email }}"><i class="fas fa-envelope" style="color: black;"></i></a>
+              {% endif %}
+              {% if site.data.head.linkedin %}
+                <a href="http://linkedin.com/in/{{ site.data.head.linkedin }}"><i class="fab fa-linkedin" style="color: black;"></i></a>
+              {% endif %}
+              {% if site.data.head.github %}
+                <a href="https://github.com/{{ site.data.head.github }}"><i class="fab fa-github" style="color: black;"></i></a>
+              {% endif %}
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+
+
 <h1 class="title is-size-1 has-text-centered"><u>Team</u></h1>
 <br>
   <div class="columns is-multiline">
