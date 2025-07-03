@@ -18,7 +18,7 @@
   photo: marcela.jpg
   info: PhD Student (co-supervised)
   number_educ: 3
-  info2: Marcel is PhD Student at University of Goettingen (supervisor <a href="https://www.uni-goettingen.de/de/264255.html">Thomas Kneib</a>) and works on multivariate transformation models.
+  info2: Marcel is PhD Student at University of Goettingen (supervisor <a href="https://www.uni-goettingen.de/de/264255.html">Prof. Thomas Kneib</a>) and works on multivariate transformation models.
   linkedin: marpogaus
   github: MArpogaus
 
@@ -26,14 +26,22 @@
   photo: danield.jpg
   info: PhD Student (co-supervised)
   number_educ: 3
-  info2: Daniel is PhD Student in the muniq.ai lab (co-supervisor <a href="https://oduerr.github.io/about/">Oliver Duerr</a>) and works on uncertainty quantification in Bayesian neural networks.
+  info2: Daniel is PhD Student in the muniq.ai lab (co-supervisor <a href="https://oduerr.github.io/about/">Prof. Oliver Duerr</a>) and works on uncertainty quantification in Bayesian neural networks.
   email: daniel.dold@htwg-konstanz.de
   github: doldd
+  
+  - name: Yiming Du
+  photo: yimingd.jpg
+  info: PhD Student (co-supervised)
+  number_educ: 3
+  info2: Yiming is a PhD Student at the Institute for Digital Cultural Heritage Studies (supervisor <a href="https://www.archaeobiocenter.uni-muenchen.de/personen/mitglieder2/lercari/index.html">Prof. Nicola Lercari</a>) and works on deep learning and non-invasive 3D restoration of cultural heritage.
+  email: mingmingzk678@gmail.com
+  github: YimingDu-0802
   
 - name: Maarten Jung
   photo: maartenj.png
   info: PhD Student (co-supervised)
-  info2: Maarten is a PhD student in the muniq.ai lab (co-supervisor <a href="https://hu.berlin/sg">Sonja Greven</a>) and works on semi-structured extensions of conditional density regression models.
+  info2: Maarten is a PhD student in the muniq.ai lab (co-supervisor <a href="https://hu.berlin/sg">Prof. Sonja Greven</a>) and works on semi-structured extensions of conditional density regression models.
   email: maarten.jung@stat.uni-muenchen.de
   github: maarten-jung
 
@@ -48,7 +56,7 @@
 - name: Chris Kolb
   photo: chrisk.jpg
   info: PhD Student (co-supervised)
-  info2: Chris is PhD Student in the Statistical Learning and Data Science Group (supervisor <a href="https://www.slds.stat.uni-muenchen.de/people/bischl/">Bernd Bischl</a>) and works on sparsity in neural networks.
+  info2: Chris is PhD Student in the Statistical Learning and Data Science Group (supervisor <a href="https://www.slds.stat.uni-muenchen.de/people/bischl/">Prof. Bernd Bischl</a>) and works on sparsity in neural networks.
   email: chris.kolb@stat.uni-muenchen.de
   linkedin: chris-kolb
   github: chriskolb
@@ -56,7 +64,7 @@
 - name: Yawei Li
   photo: yaweil.jpg
   info: PhD Student (collaborating)
-  info2: Yawei is a PhD student in Statistical Learning and Data Science Group (supervisor <a href="https://www.slds.stat.uni-muenchen.de/people/bischl/">Bernd Bischl</a>) and works on uncertainty quantification and explainability of large language models.
+  info2: Yawei is a PhD student in Statistical Learning and Data Science Group (supervisor <a href="https://www.slds.stat.uni-muenchen.de/people/bischl/">Prof. Bernd Bischl</a>) and works on uncertainty quantification and explainability of large language models.
   email: yawei.li@stat.uni-muenchen.de
   linkedin: yawei-li-11013b203
   github: sandylaker
@@ -64,14 +72,14 @@
 - name: Richard Paul
   photo: richi.jpg
   info: PhD Student (co-supervised)
-  info2: Richard is a PhD Student at Forschungszentrum Jülich (supervisors <a href="https://www.fz-juelich.de/profile/scharr_h">Hanno Scharr</a> and <a href="https://www.fz-juelich.de/profile/noeh_k">Katharina Nöh</a>) and works on probabilistic live-cell imaging & analysis.
+  info2: Richard is a PhD Student at Forschungszentrum Jülich (supervisors <a href="https://www.fz-juelich.de/profile/scharr_h">Dr. Hanno Scharr</a> and <a href="https://www.fz-juelich.de/profile/noeh_k">Dr. Katharina Nöh</a>) and works on probabilistic live-cell imaging & analysis.
   email: r.paul@fz-juelich.de
   github: ripaul
 
 - name: Tobias Pielok
   photo: tobip.jpg
   info: PhD Student (co-supervised)
-  info2: Tobias is a PhD Student in the Statistical Learning and Data Science Group (supervisor <a href="https://www.slds.stat.uni-muenchen.de/people/bischl/">Bernd Bischl</a>) and works on Bayesian deep learning and model-based optimization.
+  info2: Tobias is a PhD Student in the Statistical Learning and Data Science Group (supervisor <a href="https://www.slds.stat.uni-muenchen.de/people/bischl/">Prof. Bernd Bischl</a>) and works on Bayesian deep learning and model-based optimization.
   email: tobias.pielok@stat.uni-muenchen.de
   linkedin: tobias-pielok-1647212a4
   github: tpielok
@@ -95,7 +103,7 @@
 - name: Lisa Wimmer
   photo: lisaw.jpg
   info: PhD Student (co-supervised)
-  info2: Lisa is a PhD Student in the Statistical Learning and Data Science Group (supervisor <a href="https://www.slds.stat.uni-muenchen.de/people/bischl/">Bernd Bischl</a>) and works on uncertainty quantification in deep learning.
+  info2: Lisa is a PhD Student in the Statistical Learning and Data Science Group (supervisor <a href="https://www.slds.stat.uni-muenchen.de/people/bischl/">Prof. Bernd Bischl</a>) and works on uncertainty quantification in deep learning.
   email: lisa.wimmer@stat.uni-muenchen.de
   linkedin: lisa-wimmer-86936316a
   github: lisa-wm
@@ -103,7 +111,7 @@
 - name: Qiwen Xu
   photo: qiwen.png
   info: PhD Student (co-supervised)
-  info2: Qiwen is a PhD Student in the muniq.ai lab, the Machine Learning Consulting Unit (supervised by Dr. Andreas Bender) and the Mannheim Medical Faculty (supervised by Mate Maros). Currently, Qiwen's research focuses on generative models in the field of medical imaging, exploring deep learning approaches for data synthesis and enhancement.
+  info2: Qiwen is a PhD Student in the muniq.ai lab, the Machine Learning Consulting Unit (supervised by Dr. Andreas Bender) and the Mannheim Medical Faculty (supervised by Dr. Mate Maros). Currently, Qiwen's research focuses on generative models in the field of medical imaging, exploring deep learning approaches for data synthesis and enhancement.
   email: qiwen.xu@stat.uni-muenchen.de
   linkedin: qiwen-xu
   github: qiwen-1123
