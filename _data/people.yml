@@ -92,14 +92,6 @@
   linkedin: rickmer-schulte
   github: rickmer-schulte
 
-- name: Lisa Wimmer
-  photo: lisaw.jpg
-  info: PhD Student (co-supervised)
-  info2: Lisa is a PhD Student in the Statistical Learning and Data Science Group (supervisor <a href="https://www.slds.stat.uni-muenchen.de/people/bischl/">Prof. Bernd Bischl</a>) and works on uncertainty quantification in deep learning.
-  email: lisa.wimmer@stat.uni-muenchen.de
-  linkedin: lisa-wimmer-86936316a
-  github: lisa-wm
-
 - name: Qiwen Xu
   photo: qiwen.png
   info: PhD Student (co-supervised)

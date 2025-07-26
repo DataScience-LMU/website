@@ -1,37 +1,37 @@
 - name: Dr. Philipp Baumann
   photo: philippb.jpg
   info: Former PhD Student (co-supervised)
-  info2: Philipp was a PhD Student at ETH Zurich (supervisors <a href="http://user.math.uzh.ch/hothorn/">Torsten Hothorn</a> and <a href="https://kof.ethz.ch/das-institut/personen/person-detail.MTI5MTQx.TGlzdC81NzgsODQ4OTAwOTg=.html">Jan-Egbert Sturm</a>) and worked on (autoregressive) transformation models.
+  info2: Philipp was a PhD Student at ETH Zurich (supervisors <a href="http://user.math.uzh.ch/hothorn/">Torsten Hothorn</a> and <a href="https://kof.ethz.ch/das-institut/personen/person-detail.MTI5MTQx.TGlzdC81NzgsODQ4OTAwOTg=.html">Jan-Egbert Sturm</a>).
   
 - name: Dr. Emilio Dorigatti
   photo: emiliod.jpg
   info: Former PhD Student (co-supervised)
-  info2: Emilio was a PhD Student in the Statistical Learning and Data Science Group (supervisors <a href="https://www.slds.stat.uni-muenchen.de/people/bischl/">Bernd Bischl</a> and <a href="https://scholar.google.com/citations?user=D2wEjisAAAAJ&hl=en">Benjamin Schubert</a>) and worked on uncertainty quantification in semi-structured neural networks.
+  info2: Emilio was a PhD Student in the Statistical Learning and Data Science Group (supervisors <a href="https://www.slds.stat.uni-muenchen.de/people/bischl/">Bernd Bischl</a> and <a href="https://scholar.google.com/citations?user=D2wEjisAAAAJ&hl=en">Benjamin Schubert</a>).
 
 - name: Dr. Jann Goschenhofer
   photo: janng.jpg
   info: Former PhD Student (co-supervised)
-  info2: Jann was PhD Student in the Statistical Learning and Data Science Group (supervisor <a href="https://www.slds.stat.uni-muenchen.de/people/bischl/">Bernd Bischl</a>) and works on learning with limited labeled data.
+  info2: Jann was PhD Student in the Statistical Learning and Data Science Group (supervisor <a href="https://www.slds.stat.uni-muenchen.de/people/bischl/">Bernd Bischl</a>).
 
 - name: Philipp Kopper
   photo: philippk.jpg
   info: Former PhD Student (co-supervised)
-  info2: Philipp was a PhD Student in the Statistical Learning and Data Science Group (supervisor <a href="https://www.slds.stat.uni-muenchen.de/people/bischl/">Bernd Bischl</a>) and works on deep survival analysis.
+  info2: Philipp was a PhD Student in the Statistical Learning and Data Science Group (supervisor <a href="https://www.slds.stat.uni-muenchen.de/people/bischl/">Bernd Bischl</a>).
 
 - name: Dr. Felix Ott
   photo: felixo.jpg
   info: Former PhD Student (co-supervised)
-  info2: Felix is a former PhD student of <a href="https://www.slds.stat.uni-muenchen.de/people/bischl/">Bernd Bischl</a> and <a href="https://cmutschler.de/">Christopher Mutschler</a> from Fraunhofer IIS who obtained his PhD in 2023 for his work on camera-based localization with deep learning methods and multimodal information fusion for pose estimation.
+  info2: Felix was a PhD student of <a href="https://www.slds.stat.uni-muenchen.de/people/bischl/">Bernd Bischl</a> and <a href="https://cmutschler.de/">Christopher Mutschler</a> from Fraunhofer IIS.
       
 - name: Dr. Katharina Rath
   photo: katharinar.jpg
   info: Former PhD Student (co-supervised)
-  info2: Katharina was a PhD Student in the Statistical Learning and Data Science Group (supervisor <a href="https://www.slds.stat.uni-muenchen.de/people/bischl/">Bernd Bischl</a>) and at the <a href="https://www.ipp.mpg.de/">Max Planck Institute for Plasma Physics (IPP)</a> (supervisors Udo von Toussaint and Christopher Albert) and worked on Gaussian processes.
+  info2: Katharina was a PhD Student in the Statistical Learning and Data Science Group (supervisor <a href="https://www.slds.stat.uni-muenchen.de/people/bischl/">Bernd Bischl</a>) and at the <a href="https://www.ipp.mpg.de/">Max Planck Institute for Plasma Physics (IPP)</a> (supervisors Udo von Toussaint and Christopher Albert).
   
 - name: Dr. Daniel Schalk
   photo: daniels.jpg
   info: Former PhD Student (co-supervised) 
-  info2: Daniel is a former PhD Student of <a href="https://www.slds.stat.uni-muenchen.de/people/bischl/">Bernd Bischl</a> and obtained his PhD for his work on component-wise gradient boosting.
+  info2: Daniel was a PhD Student of <a href="https://www.slds.stat.uni-muenchen.de/people/bischl/">Bernd Bischl</a> and obtained his PhD for his work on component-wise gradient boosting.
 
 - name: Dr. Philipp Schiele
   photo: philipps.jpg
@@ -41,9 +41,15 @@
 - name: Theresa Stueber
   photo: theresas.jpg
   info: PhD Student (co-supervised)
-  info2: Theresa is a PhD Student in the Statistical Learning and Data Science Group (supervisor <a href="https://www.slds.stat.uni-muenchen.de/people/bischl/">Bernd Bischl</a>) and in the <a href="https://www.lmu-klinikum.de/radiologie/forschung/clinical-data-science/0e8a3ac188dad3f9">Clinical Data Science Group</a> (supervisor Michael Ingrisch), and works in the area of machine and deep learning with radiological data.
+  info2: Theresa was a PhD Student in the Statistical Learning and Data Science Group (supervisor <a href="https://www.slds.stat.uni-muenchen.de/people/bischl/">Bernd Bischl</a>) and in the <a href="https://www.lmu-klinikum.de/radiologie/forschung/clinical-data-science/0e8a3ac188dad3f9">Clinical Data Science Group</a> (supervisor Michael Ingrisch).
     
 - name: Dr. Tobias Weber
   photo: tobiw.jpg
   info: Former PhD Student (co-supervised)
   info2: Tobias was a PhD Student in the Statistical Learning and Data Science Group (supervisor <a href="https://www.slds.stat.uni-muenchen.de/people/bischl/">Bernd Bischl</a>) and in the <a href="https://www.lmu-klinikum.de/radiologie/forschung/clinical-data-science/0e8a3ac188dad3f9">Clinical Data Science Group</a> (supervisor Michael Ingrisch) and works on generative models in the medical image domain.
+  
+- name: Lisa Wimmer
+  photo: lisaw.jpg
+  info: Former PhD Student (co-supervised)
+  info2: Lisa was a PhD Student in the Statistical Learning and Data Science Group (supervisor <a href="https://www.slds.stat.uni-muenchen.de/people/bischl/">Prof. Bernd Bischl</a>).
+  
