@@ -1,3 +1,9 @@
+- name: Marcel Arpogaus
+  photo: marcela.jpg
+  info: Former PhD Student (co-supervised)
+  number_educ: 3
+  info2: Marcel is a PhD Student at University of Goettingen (supervisor <a href="https://www.uni-goettingen.de/de/264255.html">Prof. Thomas Kneib</a>)
+
 - name: Dr. Philipp Baumann
   photo: philippb.jpg
   info: Former PhD Student (co-supervised)
@@ -22,6 +28,12 @@
   photo: felixo.jpg
   info: Former PhD Student (co-supervised)
   info2: Felix was a PhD student of <a href="https://www.slds.stat.uni-muenchen.de/people/bischl/">Bernd Bischl</a> and <a href="https://cmutschler.de/">Christopher Mutschler</a> from Fraunhofer IIS.
+      
+
+- name: Tobias Pielok
+  photo: tobip.jpg
+  info: Former PhD Student (co-supervised)
+  info2: Tobias was a PhD Student in the Statistical Learning and Data Science Group (supervisor <a href="https://www.slds.stat.uni-muenchen.de/people/bischl/">Prof. Bernd Bischl</a>).
       
 - name: Dr. Katharina Rath
   photo: katharinar.jpg

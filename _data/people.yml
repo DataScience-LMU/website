@@ -5,14 +5,6 @@
   email: syed.mohsin.ali1@huawei.com
   linkedin: smohsinali110
   github: smohsinali
-  
-- name: Marcel Arpogaus
-  photo: marcela.jpg
-  info: PhD Student (co-supervised)
-  number_educ: 3
-  info2: Marcel is PhD Student at University of Goettingen (supervisor <a href="https://www.uni-goettingen.de/de/264255.html">Prof. Thomas Kneib</a>) and works on multivariate transformation models.
-  linkedin: marpogaus
-  github: MArpogaus
 
 - name: Daniel Dold
   photo: danield.jpg
@@ -67,14 +59,6 @@
   info2: Richard is a PhD Student at Forschungszentrum Jülich (supervisors <a href="https://www.fz-juelich.de/profile/scharr_h">Dr. Hanno Scharr</a> and <a href="https://www.fz-juelich.de/profile/noeh_k">Dr. Katharina Nöh</a>) and works on probabilistic live-cell imaging & analysis.
   email: r.paul@fz-juelich.de
   github: ripaul
-
-- name: Tobias Pielok
-  photo: tobip.jpg
-  info: PhD Student (co-supervised)
-  info2: Tobias is a PhD Student in the Statistical Learning and Data Science Group (supervisor <a href="https://www.slds.stat.uni-muenchen.de/people/bischl/">Prof. Bernd Bischl</a>) and works on Bayesian deep learning and model-based optimization.
-  email: tobias.pielok@stat.uni-muenchen.de
-  linkedin: tobias-pielok-1647212a4
-  github: tpielok
 
 - name: Emanuel Sommer
   photo: emanuels.jpg
