@@ -1,112 +1,98 @@
-<!-- Parent div for "About" section -->
-<section id="about" style="padding-top: 100px;">
+<section id="about" class="section team-section">
+  <div class="container">
+    <h1 class="title is-size-1 has-text-centered team-section-title"><u>Head of Lab</u></h1>
 
-  <!-- Team Lead Heading -->
-  <h1 class="title is-size-1 has-text-centered"><u>Head of Lab</u></h1>
-  <br>
-
-<!-- Team Lead Section -->
-<div class="columns is-centered">
-  <div class="column is-half-desktop is-full-mobile fixed-height">
-    <section class="hero has-text-centered has-background-white" style="padding: 40px 20px;" id="{{ site.data.head.name | slugify }}">
-      <div class="hero-body" style="padding: 1rem;">
-        <div class="container">
-          <figure class="image is-128x128-mobile is-256x256-desktop is-inline-block">
-            <img class="is-rounded team-image" src="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/{{ site.data.head.photo }}" alt="{{ site.data.head.name }}">
+    <div class="columns is-centered">
+      <div class="column is-two-thirds-desktop is-full-tablet is-full-mobile">
+        <article class="member-card member-card--head" id="{{ site.data.head.name | slugify }}">
+          <figure class="member-photo-wrap">
+            <img
+              class="member-photo"
+              src="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/{{ site.data.head.photo }}"
+              alt="{{ site.data.head.name }}"
+              loading="lazy"
+            >
           </figure>
-          <br>
-          <h2 class="title is-size-3" style="margin-top: 1rem;">{{ site.data.head.name }}</h2>
-          <h4 class="subtitle is-size-5" style="margin-top: 0.5rem;">{{ site.data.head.info }}</h4>
-          <p style="margin-top: 1rem;">{{ site.data.head.info2 }}</p>
-          <br>
-          <div>
-            {% if site.data.head.email %}
-              <a href="mailto:{{ site.data.head.email }}"><i class="fas fa-envelope" style="color: black;"></i></a>
-            {% endif %}
-            {% if site.data.head.linkedin %}
-              <a href="http://linkedin.com/in/{{ site.data.head.linkedin }}"><i class="fab fa-linkedin" style="color: black; margin-left: 10px;"></i></a>
-            {% endif %}
-            {% if site.data.head.github %}
-              <a href="https://github.com/{{ site.data.head.github }}"><i class="fab fa-github" style="color: black; margin-left: 10px;"></i></a>
-            {% endif %}
+          <div class="member-content">
+            <h2 class="member-name">{{ site.data.head.name }}</h2>
+            <p class="member-role">{{ site.data.head.info }}</p>
+            <p class="member-bio">{{ site.data.head.info2 }}</p>
+            <div class="member-links" aria-label="Social and contact links">
+              {% if site.data.head.email %}
+                <a href="mailto:{{ site.data.head.email }}" aria-label="Email {{ site.data.head.name }}"><i class="fas fa-envelope"></i></a>
+              {% endif %}
+              {% if site.data.head.linkedin %}
+                <a href="http://linkedin.com/in/{{ site.data.head.linkedin }}" aria-label="LinkedIn {{ site.data.head.name }}"><i class="fab fa-linkedin"></i></a>
+              {% endif %}
+              {% if site.data.head.github %}
+                <a href="https://github.com/{{ site.data.head.github }}" aria-label="GitHub {{ site.data.head.name }}"><i class="fab fa-github"></i></a>
+              {% endif %}
+            </div>
           </div>
-        </div>
+        </article>
       </div>
-    </section>
-  </div>
-</div>
+    </div>
 
+    <h1 class="title is-size-1 has-text-centered team-section-title"><u>Team</u></h1>
 
-<h1 class="title is-size-1 has-text-centered"><u>Team</u></h1>
-<br>
-  <div class="columns is-multiline">
-    {% for person in site.data.people %}
-      <!-- Individual divs for each person -->
-      <div class="column is-half-desktop is-full-mobile fixed-height">
-          <section class="hero has-text-centered has-background-white" style="padding-top: 40px; padding-bottom: 40px; padding-left: 20px; padding-right: 20px;" id="{{ person.name | slugify }}">
-              <div class="hero-body" style="padding: 1rem;">
-                  <div class="container">
-                      <div class="columns">
-                          <div class="column is-one-fifth-desktop is-one-fifth-tablet is-one-fifth-fullhd">
-                              <figure class="image is-128x128-mobile is-256x256-desktop">
-                                  <img class="is-rounded team-image" src="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/{{ person.photo }}" alt="{{ person.name }}">
-                              </figure>
-                          </div>
-                          <div class="column has-text-left-desktop has-text-left-tablet has-text-left-fullhd has-text-left-widescreen">
-                              <h2 class="title" style="font-size: 1.5rem;">{{ person.name }}</h2>
-                              <br>
-                              <h4 class="subtitle" style="font-size: 1rem;">{{ person.info }}</h4>
-                              <p>{{ person.info2 }}</p>
-                              <!-- Links to social media and most importantly email -->
-                                <div class="columns is-multiline">
-                                    <div class="column is-full">
-                                        {% if person.email %}
-                                            <a href="mailto:{{ person.email }}"><i class="fas fa-envelope" style="color: black;"></i></a>
-                                        {% endif %}
-                                        {% if person.linkedin %}
-                                            <a href="http://linkedin.com/in/{{ person.linkedin }}"><i class="fab fa-linkedin" style="color: black;"></i></a>
-                                        {% endif %}
-                                        {% if person.github %}
-                                            <a href="https://github.com/{{ person.github }}"><i class="fab fa-github" style="color: black;"></i></a>
-                                        {% endif %}
-                                    </div>
-                                </div>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </section>
-      </div>
-    {% endfor %}
+    <div class="team-grid">
+      {% for person in site.data.people %}
+        <article class="member-card" id="{{ person.name | slugify }}">
+          <figure class="member-photo-wrap">
+            <img
+              class="member-photo"
+              src="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/{{ person.photo }}"
+              alt="{{ person.name }}"
+              loading="lazy"
+            >
+          </figure>
+          <div class="member-content">
+            <h2 class="member-name">{{ person.name }}</h2>
+            <p class="member-role">{{ person.info }}</p>
+            <p class="member-bio">{{ person.info2 }}</p>
+            <div class="member-links" aria-label="Social and contact links">
+              {% if person.email %}
+                <a href="mailto:{{ person.email }}" aria-label="Email {{ person.name }}"><i class="fas fa-envelope"></i></a>
+              {% endif %}
+              {% if person.linkedin %}
+                <a href="http://linkedin.com/in/{{ person.linkedin }}" aria-label="LinkedIn {{ person.name }}"><i class="fab fa-linkedin"></i></a>
+              {% endif %}
+              {% if person.github %}
+                <a href="https://github.com/{{ person.github }}" aria-label="GitHub {{ person.name }}"><i class="fab fa-github"></i></a>
+              {% endif %}
+            </div>
+          </div>
+        </article>
+      {% endfor %}
+    </div>
   </div>
 </section>
 
 <section class="hero has-background-white-ter" id="aboutv" style="padding-top: 100px;">
-    <h2 class="title is-size-3 has-text-centered">Visitors</h2>
-    <br>
-    <div class="columns is-multiline is-centered">
-        <div class="column is-half has-text-centered">
-            <ul style="list-style: none; padding: 0;">
-                {% for person in site.data.pastvisitors %}
-                    <li><strong>{{ person.name }}</strong> - {{ person.info }}</li>
-                {% endfor %}
-            </ul>
-        </div>
+  <h2 class="title is-size-3 has-text-centered">Visitors</h2>
+  <br>
+  <div class="columns is-multiline is-centered">
+    <div class="column is-half has-text-centered">
+      <ul style="list-style: none; padding: 0;">
+        {% for person in site.data.pastvisitors %}
+          <li><strong>{{ person.name }}</strong> - {{ person.info }}</li>
+        {% endfor %}
+      </ul>
     </div>
+  </div>
 </section>
 
 <section class="hero has-background-white-ter" id="abouta" style="padding-top: 100px;">
-    <h2 class="title is-size-3 has-text-centered">Alumni</h2>
-    <br>
-    <div class="columns is-multiline is-centered">
-        <div class="column is-half has-text-centered">
-            <ul style="list-style: none; padding: 0;">
-                {% for person in site.data.alumni %}
-                    <li><strong>{{ person.name }}</strong> - {{ person.info }}</li>
-                {% endfor %}
-            </ul>
-        </div>
+  <h2 class="title is-size-3 has-text-centered">Alumni</h2>
+  <br>
+  <div class="columns is-multiline is-centered">
+    <div class="column is-half has-text-centered">
+      <ul style="list-style: none; padding: 0;">
+        {% for person in site.data.alumni %}
+          <li><strong>{{ person.name }}</strong> - {{ person.info }}</li>
+        {% endfor %}
+      </ul>
     </div>
-    <br>
+  </div>
+  <br>
 </section>
-

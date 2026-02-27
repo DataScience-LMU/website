@@ -79,16 +79,8 @@ hr {
     border: none !important;
 }
 
-.title {
-    font-size: 24px; /* adjust as needed */
-}
-
-.subtitle {
-    font-size: 18px; /* adjust as needed */
-}
-
 .fixed-height {
-  max-height: 450px; /* Adjust this value as needed */
+  max-height: none;
 }
 
 .publication-column {
