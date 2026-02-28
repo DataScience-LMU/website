@@ -216,6 +216,80 @@ a.navbar-item.is-active {
     }
 }
 
+#sponsors {
+    .funding-logos {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 1.1rem 1.6rem;
+        margin: 0 auto;
+        max-width: 980px;
+    }
+
+    .funding-logo {
+        height: auto;
+        max-width: 100%;
+    }
+
+    .funding-logo--small {
+        width: 100px;
+    }
+
+    .funding-logo--medium {
+        width: 138px;
+    }
+
+    .funding-logo--large {
+        width: 300px;
+    }
+
+    .funding-logo--nvidia {
+        width: 112px;
+    }
+
+    .funding-logo--lrz {
+        width: 90px;
+    }
+
+    .funding-logo--baiosphere {
+        width: 118px;
+    }
+}
+
+@media (max-width: 768px) {
+    #sponsors {
+        .funding-logos {
+            gap: 0.9rem 1.2rem;
+            max-width: 560px;
+        }
+
+        .funding-logo--small {
+            width: 90px;
+        }
+
+        .funding-logo--medium {
+            width: 120px;
+        }
+
+        .funding-logo--large {
+            width: 220px;
+        }
+
+        .funding-logo--nvidia {
+            width: 98px;
+        }
+
+        .funding-logo--lrz {
+            width: 78px;
+        }
+
+        .funding-logo--baiosphere {
+            width: 102px;
+        }
+    }
+}
+
 #blog {
     .hero-body {
         padding: 3rem 0.25rem 1rem 0.25rem;
