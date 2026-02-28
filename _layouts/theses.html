@@ -1,0 +1,31 @@
+---
+layout: compress
+---
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    {% include head.html %}
+</head>
+
+<body>
+    {% include navbar.html %}
+
+    <section class="hero" id="project">
+        <div class="hero-body">
+            <div class="container has-text-centered">
+                <div class="section">
+                    <p class="subtitle is-uppercase has-text-weight-medium has-text-grey">{{ page.title }}</p>
+                </div>
+                <div class="content theses-content">
+                    {{ content }}
+                </div>
+            </div>
+        </div>
+    </section>
+
+    {% include footer.html %}
+</body>
+
+</html>
