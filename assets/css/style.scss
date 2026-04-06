@@ -7,8 +7,27 @@
     opacity: 0.95;
 }
 
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
 .is-active {
     font-weight: 600;
+}
+
+.site-brand-logo {
+    display: block;
+    width: auto;
+    height: 2rem;
+    max-height: none;
 }
 
 .navbar-dropdown {
@@ -59,6 +78,18 @@ a.navbar-item.is-active {
         position: absolute;
         opacity: 0.25;
         content: "";
+    }
+
+    .hero-brand-title {
+        margin: 0 0 1.25rem !important;
+        line-height: 0;
+    }
+
+    .hero-brand-logo {
+        display: block;
+        width: min(84vw, 34rem);
+        height: auto;
+        margin: 0 auto;
     }
 }
 .title {
@@ -172,6 +203,20 @@ a.navbar-item.is-active {
 }
 
 @media (max-width: 768px) {
+    .site-brand-logo {
+        height: 1.6rem;
+    }
+
+    #hero {
+        .hero-brand-title {
+            margin-bottom: 1rem !important;
+        }
+
+        .hero-brand-logo {
+            width: min(90vw, 26rem);
+        }
+    }
+
     #about {
         .member-card {
             grid-template-columns: 1fr;
