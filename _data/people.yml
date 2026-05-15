@@ -76,14 +76,6 @@
   linkedin: rickmer-schulte
   github: rickmer-schulte
 
-- name: Qiwen Xu
-  photo: qiwen.png
-  info: PhD Student (co-supervised)
-  info2: Qiwen is a PhD Student in the muniq.ai lab, the Machine Learning Consulting Unit (supervised by Dr. Andreas Bender) and the Mannheim Medical Faculty (supervised by Dr. Mate Maros). Currently, Qiwen's research focuses on generative models in the field of medical imaging, exploring deep learning approaches for data synthesis and enhancement.
-  email: qiwen.xu@stat.uni-muenchen.de
-  linkedin: qiwen-xu
-  github: qiwen-1123
-
 - name: Maksym Tretiakov
   photo: maksymt.JPG
   info: PhD Student
@@ -91,3 +83,11 @@
   email: M.Tretiakov@campus.lmu.de
   linkedin: maxtretyakov
   github: maxtretiakov
+
+- name: Qiwen Xu
+  photo: qiwen.png
+  info: PhD Student (co-supervised)
+  info2: Qiwen is a PhD Student in the muniq.ai lab, the Machine Learning Consulting Unit (supervised by Dr. Andreas Bender) and the Mannheim Medical Faculty (supervised by Dr. Mate Maros). Currently, Qiwen's research focuses on generative models in the field of medical imaging, exploring deep learning approaches for data synthesis and enhancement.
+  email: qiwen.xu@stat.uni-muenchen.de
+  linkedin: qiwen-xu
+  github: qiwen-1123
