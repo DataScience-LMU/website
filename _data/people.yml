@@ -6,6 +6,14 @@
   linkedin: smohsinali110
   github: smohsinali
 
+- name: Sarah Deubner
+  photo: sarah.jpg
+  info: PhD Student
+  info2: Sarah is a PhD Student in the muniq.ai lab. She is working on sparsity and evaluation metrics in Bayesian neural networks.
+  email: Sarah.Deubner@stat.uni-muenchen.de
+  linkedin: sarah-d-9b3071173
+  github: SarahDbnr
+
 - name: Daniel Dold
   photo: danield.jpg
   info: PhD Student (co-supervised)
