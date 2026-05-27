@@ -1,3 +1,11 @@
+- name: Dr. Chris Kolb
+  photo: chrisk.jpg
+  info: Postdoc
+  info2: Chris is a Postdoc in the muniq.ai lab. He obtained his PhD under the supervision of <a href="https://www.slds.stat.uni-muenchen.de/people/bischl/">Prof. Bernd Bischl</a>) and currently works on sparsity in deep learning.
+  email: chris.kolb@stat.uni-muenchen.de
+  linkedin: chris-kolb
+  github: chriskolb
+
 - name: Mohsin Ali
   photo: mohsin.jpg
   info: PhD Student
@@ -44,14 +52,6 @@
   email: julius@stat.uni-muenchen.de
   linkedin: juliuskobialka
   github: j-kobialka
-
-- name: Chris Kolb
-  photo: chrisk.jpg
-  info: PhD Student (co-supervised)
-  info2: Chris is PhD Student in the Statistical Learning and Data Science Group (supervisor <a href="https://www.slds.stat.uni-muenchen.de/people/bischl/">Prof. Bernd Bischl</a>) and works on sparsity in neural networks.
-  email: chris.kolb@stat.uni-muenchen.de
-  linkedin: chris-kolb
-  github: chriskolb
   
 - name: Yawei Li
   photo: yaweil.jpg
