@@ -37,6 +37,13 @@
   info2: Yiming is a PhD Student at the Institute for Digital Cultural Heritage Studies (supervisor <a href="https://www.archaeobiocenter.uni-muenchen.de/personen/mitglieder2/lercari/index.html">Prof. Nicola Lercari</a>) and works on deep learning and non-invasive 3D restoration of cultural heritage.
   email: mingmingzk678@gmail.com
   github: YimingDu-0802
+
+- name: Leander Fritsch
+  photo: leander.jpg
+  info: PhD Student
+  info2: Leander is a PhD student in the muniq.ai lab and at Airbus. He is currently working on uncertainty quantification for deep computer vision models in safety-critical aerospace applications.
+  email: leander.fritsch@airbus.com
+  github: leander-fritsch
   
 - name: Maarten Jung
   photo: maartenj.png
