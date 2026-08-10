@@ -44,7 +44,15 @@
   info2: Leander is a PhD student in the muniq.ai lab and at Airbus. He is currently working on uncertainty quantification for deep computer vision models in safety-critical aerospace applications.
   email: leander.fritsch@airbus.com
   github: leander-fritsch
-  
+
+- name: Manuel Hülskamp
+  photo: manuel.jpg
+  info: PhD Student
+  info2: Manuel is a Phd student in the muniq.ai lab (co-supervised by <a href="https://hu.berlin/sg">Prof. Sonja Greven</a> and <a href="https://tnagler.github.io/">Prof. Thomas Nagler</a>). He is currently working on Tabular Foundation Models and Bayesian Semi-Structured Regression Models.
+  email: manuel.huelskamp@stat.uni-muenchen.de
+  linkedin: manuel-hülskamp
+  github: ManuelHuelskamp
+
 - name: Maarten Jung
   photo: maartenj.png
   info: PhD Student (co-supervised)
