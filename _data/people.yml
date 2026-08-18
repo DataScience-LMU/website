@@ -94,7 +94,7 @@
 - name: Rickmer Schulte
   photo: rickmers.jpg
   info: PhD Student
-  info2: Rickmer is a PhD Student in the muniq.ai lab. He is currently working on Optimization and Boosting methods.
+  info2: Rickmer is a PhD Student in the muniq.ai lab. His research spans work on boosting methods, causal inference with non-tabular data, and, more recently, the intrinsic dimensionality of neural representations.
   email: rickmer.schulte@stat.uni-muenchen.de
   linkedin: rickmer-schulte
   github: rickmer-schulte
